@@ -1,0 +1,4788 @@
+{
+  "language": "en",
+  "language_probability": 0.555241048336029,
+  "duration": 2353.48175,
+  "segments": [
+    {
+      "id": 1,
+      "start": 60.0,
+      "end": 75.0,
+      "text": " Good evening and welcome to the 5 o'clock PM Tulsa City Council meeting Councillor Gilbert.",
+      "words": []
+    },
+    {
+      "id": 2,
+      "start": 75.0,
+      "end": 76.0,
+      "text": " Just in the nick of time.",
+      "words": []
+    },
+    {
+      "id": 3,
+      "start": 76.0,
+      "end": 77.84,
+      "text": " That was so close.",
+      "words": []
+    },
+    {
+      "id": 4,
+      "start": 77.84,
+      "end": 84.72,
+      "text": " You can view this meeting on our Facebook page, Cox Channel 24, or at tgavonline.org.",
+      "words": []
+    },
+    {
+      "id": 5,
+      "start": 84.72,
+      "end": 89.56,
+      "text": " Disting the Council tonight, our Jack Blair, our City Attorney, Lori Doring, Secretary",
+      "words": []
+    },
+    {
+      "id": 6,
+      "start": 89.56,
+      "end": 93.2,
+      "text": " to the Council, and Brandon Warley, Council staff.",
+      "words": []
+    },
+    {
+      "id": 7,
+      "start": 93.2,
+      "end": 97.4,
+      "text": " If you wish to speak on an agenda item, go see Brandon.",
+      "words": []
+    },
+    {
+      "id": 8,
+      "start": 97.4,
+      "end": 103.52,
+      "text": " He's got these nice cards and you have to fill them out and if we read the item and",
+      "words": []
+    },
+    {
+      "id": 9,
+      "start": 103.52,
+      "end": 106.75999999999999,
+      "text": " you haven't filled it out then he won't be allowed to speak on that item.",
+      "words": []
+    },
+    {
+      "id": 10,
+      "start": 106.75999999999999,
+      "end": 111.0,
+      "text": " So we're going to say the pledge of allegiance and then stand for a moment of silence, but",
+      "words": []
+    },
+    {
+      "id": 11,
+      "start": 111.0,
+      "end": 114.4,
+      "text": " we have boy scouts back here and I know nobody put you on the spot.",
+      "words": []
+    },
+    {
+      "id": 12,
+      "start": 114.4,
+      "end": 117.60000000000001,
+      "text": " Do you guys want to come up and lead us in the pledge of allegiance?",
+      "words": []
+    },
+    {
+      "id": 13,
+      "start": 117.60000000000001,
+      "end": 124.88000000000001,
+      "text": " I can just come up and stand here and do the salute and lead us.",
+      "words": []
+    },
+    {
+      "id": 14,
+      "start": 124.88000000000001,
+      "end": 127.24000000000001,
+      "text": " I knew you would.",
+      "words": []
+    },
+    {
+      "id": 15,
+      "start": 127.24000000000001,
+      "end": 130.52,
+      "text": " I knew you guys would be ready.",
+      "words": []
+    },
+    {
+      "id": 16,
+      "start": 130.52,
+      "end": 142.16,
+      "text": " Yeah, this is the part of the Boy Scout motto, the B prepared part.",
+      "words": []
+    },
+    {
+      "id": 17,
+      "start": 142.16,
+      "end": 146.0,
+      "text": " So just come up here.",
+      "words": []
+    },
+    {
+      "id": 18,
+      "start": 146.0,
+      "end": 170.48,
+      "text": " I pledge allegiance to the flag of the United States and to the public for which it stands.",
+      "words": []
+    },
+    {
+      "id": 19,
+      "start": 170.48,
+      "end": 180.48,
+      "text": " My nation, I do God, indivisible with liberty, and justice for all.",
+      "words": []
+    },
+    {
+      "id": 20,
+      "start": 180.48,
+      "end": 184.04,
+      "text": " Thank you guys very much and it feels just remaining for a moment of silence and then we'll be",
+      "words": []
+    },
+    {
+      "id": 21,
+      "start": 184.04,
+      "end": 207.48,
+      "text": " going to have any proclamations tonight or special presentations.",
+      "words": []
+    },
+    {
+      "id": 22,
+      "start": 207.48,
+      "end": 209.92,
+      "text": " Item 2A was pulled by a dendom.",
+      "words": []
+    },
+    {
+      "id": 23,
+      "start": 210.00000000000003,
+      "end": 215.76000000000002,
+      "text": " I just want to let anybody know who may be in the gallery that it has been pulled.",
+      "words": []
+    },
+    {
+      "id": 24,
+      "start": 215.76000000000002,
+      "end": 219.88000000000002,
+      "text": " Announcements people wishing to speak on an agenda item are limited to five minutes total",
+      "words": []
+    },
+    {
+      "id": 25,
+      "start": 219.88000000000002,
+      "end": 221.16000000000003,
+      "text": " per meeting.",
+      "words": []
+    },
+    {
+      "id": 26,
+      "start": 221.16000000000003,
+      "end": 225.72000000000003,
+      "text": " Public input is a time for members of the public to provide insight on the agenda item.",
+      "words": []
+    },
+    {
+      "id": 27,
+      "start": 225.72000000000003,
+      "end": 230.16000000000003,
+      "text": " Due to the meeting format, public input is not a time for a question and answer period.",
+      "words": []
+    },
+    {
+      "id": 28,
+      "start": 230.16000000000003,
+      "end": 235.00000000000003,
+      "text": " All comments should be relevant to the agenda item and directed to the council.",
+      "words": []
+    },
+    {
+      "id": 29,
+      "start": 235.0,
+      "end": 241.6,
+      "text": " This nifty timing system up here, it counts down from five minutes to zero seconds.",
+      "words": []
+    },
+    {
+      "id": 30,
+      "start": 241.6,
+      "end": 246.36,
+      "text": " It's green when you have time, yellow when you have 30 seconds and red when you're over time.",
+      "words": []
+    },
+    {
+      "id": 31,
+      "start": 246.36,
+      "end": 251.4,
+      "text": " Please keep the podium area railings and aisles free from recording devices and tripods.",
+      "words": []
+    },
+    {
+      "id": 32,
+      "start": 251.4,
+      "end": 256.28,
+      "text": " Recording equipment and accessories including tripods must be set up in the media center.",
+      "words": []
+    },
+    {
+      "id": 33,
+      "start": 256.28,
+      "end": 261.08,
+      "text": " As posted on tonight's agenda, certain items are subject to consideration and possible approval,",
+      "words": []
+    },
+    {
+      "id": 34,
+      "start": 261.08,
+      "end": 264.72,
+      "text": " adoption, denial, amendment or revision.",
+      "words": []
+    },
+    {
+      "id": 35,
+      "start": 264.72,
+      "end": 265.96000000000004,
+      "text": " I call this meeting to order.",
+      "words": []
+    },
+    {
+      "id": 36,
+      "start": 265.96000000000004,
+      "end": 267.32000000000005,
+      "text": " Please call the roll.",
+      "words": []
+    },
+    {
+      "id": 37,
+      "start": 267.32000000000005,
+      "end": 268.84000000000003,
+      "text": " Councillor Halker here.",
+      "words": []
+    },
+    {
+      "id": 38,
+      "start": 268.84000000000003,
+      "end": 269.84000000000003,
+      "text": " Councillor Archie.",
+      "words": []
+    },
+    {
+      "id": 39,
+      "start": 269.84000000000003,
+      "end": 270.84000000000003,
+      "text": " Here.",
+      "words": []
+    },
+    {
+      "id": 40,
+      "start": 270.84000000000003,
+      "end": 271.84000000000003,
+      "text": " Here.",
+      "words": []
+    },
+    {
+      "id": 41,
+      "start": 271.84000000000003,
+      "end": 272.84000000000003,
+      "text": " Councillor Bellas.",
+      "words": []
+    },
+    {
+      "id": 42,
+      "start": 272.84000000000003,
+      "end": 273.84000000000003,
+      "text": " Here.",
+      "words": []
+    },
+    {
+      "id": 43,
+      "start": 273.84000000000003,
+      "end": 274.84000000000003,
+      "text": " Councillor Galer.",
+      "words": []
+    },
+    {
+      "id": 44,
+      "start": 274.84000000000003,
+      "end": 275.84000000000003,
+      "text": " Here.",
+      "words": []
+    },
+    {
+      "id": 45,
+      "start": 275.84000000000003,
+      "end": 276.84000000000003,
+      "text": " Councillor Bangle.",
+      "words": []
+    },
+    {
+      "id": 46,
+      "start": 276.84000000000003,
+      "end": 277.84000000000003,
+      "text": " Here.",
+      "words": []
+    },
+    {
+      "id": 47,
+      "start": 277.84000000000003,
+      "end": 278.84000000000003,
+      "text": " Here.",
+      "words": []
+    },
+    {
+      "id": 48,
+      "start": 278.84000000000003,
+      "end": 279.84000000000003,
+      "text": " Councillor Bush.",
+      "words": []
+    },
+    {
+      "id": 49,
+      "start": 279.84000000000003,
+      "end": 280.84000000000003,
+      "text": " Here.",
+      "words": []
+    },
+    {
+      "id": 50,
+      "start": 280.84000000000003,
+      "end": 287.44000000000005,
+      "text": " Item number one, receipt and filing of minutes A and B. Relate to minutes of a regular meeting",
+      "words": []
+    },
+    {
+      "id": 51,
+      "start": 287.44000000000005,
+      "end": 291.32000000000005,
+      "text": " held at four and five p.m. on February 12th.",
+      "words": []
+    },
+    {
+      "id": 52,
+      "start": 291.32000000000005,
+      "end": 292.32000000000005,
+      "text": " Of this year.",
+      "words": []
+    },
+    {
+      "id": 53,
+      "start": 292.32000000000005,
+      "end": 293.52000000000004,
+      "text": " Do we have any speakers?",
+      "words": []
+    },
+    {
+      "id": 54,
+      "start": 293.52000000000004,
+      "end": 294.52000000000004,
+      "text": " We have no speakers.",
+      "words": []
+    },
+    {
+      "id": 55,
+      "start": 295.32,
+      "end": 297.03999999999996,
+      "text": " Move to approve items one, A and B.",
+      "words": []
+    },
+    {
+      "id": 56,
+      "start": 297.03999999999996,
+      "end": 298.03999999999996,
+      "text": " Second.",
+      "words": []
+    },
+    {
+      "id": 57,
+      "start": 298.03999999999996,
+      "end": 299.03999999999996,
+      "text": " Please call the roll.",
+      "words": []
+    },
+    {
+      "id": 58,
+      "start": 299.03999999999996,
+      "end": 300.03999999999996,
+      "text": " Councillor Bellas.",
+      "words": []
+    },
+    {
+      "id": 59,
+      "start": 300.03999999999996,
+      "end": 301.03999999999996,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 60,
+      "start": 301.03999999999996,
+      "end": 302.03999999999996,
+      "text": " Councillor Galer.",
+      "words": []
+    },
+    {
+      "id": 61,
+      "start": 302.03999999999996,
+      "end": 303.03999999999996,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 62,
+      "start": 303.03999999999996,
+      "end": 304.03999999999996,
+      "text": " Councillor Bangle.",
+      "words": []
+    },
+    {
+      "id": 63,
+      "start": 304.03999999999996,
+      "end": 305.03999999999996,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 64,
+      "start": 305.03999999999996,
+      "end": 306.03999999999996,
+      "text": " Councillor Laken.",
+      "words": []
+    },
+    {
+      "id": 65,
+      "start": 306.03999999999996,
+      "end": 307.03999999999996,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 66,
+      "start": 307.03999999999996,
+      "end": 308.03999999999996,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 67,
+      "start": 308.03999999999996,
+      "end": 309.03999999999996,
+      "text": " Councillor Halker.",
+      "words": []
+    },
+    {
+      "id": 68,
+      "start": 309.03999999999996,
+      "end": 310.03999999999996,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 69,
+      "start": 310.03999999999996,
+      "end": 311.03999999999996,
+      "text": " Councillor Archie.",
+      "words": []
+    },
+    {
+      "id": 70,
+      "start": 311.03999999999996,
+      "end": 312.03999999999996,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 71,
+      "start": 312.03999999999996,
+      "end": 314.79999999999995,
+      "text": " Item one, A through B are approved.",
+      "words": []
+    },
+    {
+      "id": 72,
+      "start": 315.8,
+      "end": 324.32,
+      "text": " B, C, D, E and F have to do with appointments and reappointments to various authorities,",
+      "words": []
+    },
+    {
+      "id": 73,
+      "start": 324.32,
+      "end": 327.0,
+      "text": " boards, trust or committees.",
+      "words": []
+    },
+    {
+      "id": 74,
+      "start": 327.0,
+      "end": 329.6,
+      "text": " Do we have any speakers on these items?",
+      "words": []
+    },
+    {
+      "id": 75,
+      "start": 329.6,
+      "end": 339.8,
+      "text": " We have one speaker, Mr. John Huffines, for two B through G.",
+      "words": []
+    },
+    {
+      "id": 76,
+      "start": 339.8,
+      "end": 340.8,
+      "text": " Peace.",
+      "words": []
+    },
+    {
+      "id": 77,
+      "start": 340.8,
+      "end": 341.8,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 78,
+      "start": 341.8,
+      "end": 342.8,
+      "text": " Peace.",
+      "words": []
+    },
+    {
+      "id": 79,
+      "start": 342.8,
+      "end": 344.76,
+      "text": " Thank you to our Arnold City Leaders.",
+      "words": []
+    },
+    {
+      "id": 80,
+      "start": 345.0,
+      "end": 351.0,
+      "text": " Council Chairman Phil Laken, Councilor Staff, Team, Mayor Mino Nichols, and our excellent",
+      "words": []
+    },
+    {
+      "id": 81,
+      "start": 351.0,
+      "end": 352.0,
+      "text": " security.",
+      "words": []
+    },
+    {
+      "id": 82,
+      "start": 352.0,
+      "end": 356.32,
+      "text": " We're thankful to the citizens of this great city of love, Tulsa or Pohoma.",
+      "words": []
+    },
+    {
+      "id": 83,
+      "start": 356.32,
+      "end": 360.59999999999997,
+      "text": " It is a joy to be with you on this fifth day of March in the year of our loving Lord Jesus Christ",
+      "words": []
+    },
+    {
+      "id": 84,
+      "start": 360.59999999999997,
+      "end": 362.59999999999997,
+      "text": " 2025.",
+      "words": []
+    },
+    {
+      "id": 85,
+      "start": 362.59999999999997,
+      "end": 363.59999999999997,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 86,
+      "start": 363.59999999999997,
+      "end": 366.48,
+      "text": " Appointments and reappointments.",
+      "words": []
+    },
+    {
+      "id": 87,
+      "start": 366.48,
+      "end": 374.68,
+      "text": " B, Jordan Roddish, C, Maybell Wallace, D, Maya, Trelevin, E, Jim Pro.",
+      "words": []
+    },
+    {
+      "id": 88,
+      "start": 374.92,
+      "end": 381.08,
+      "text": " Provincional and reappointment to the Ethics Advisory Committee.",
+      "words": []
+    },
+    {
+      "id": 89,
+      "start": 381.08,
+      "end": 384.72,
+      "text": " Mayor Ethics be in line with the teachings found in the Holy Bible.",
+      "words": []
+    },
+    {
+      "id": 90,
+      "start": 384.72,
+      "end": 392.28000000000003,
+      "text": " F, Brian Humphrey, G, Marcus Dennis, Marcus Dennis, and may we continue to be grateful",
+      "words": []
+    },
+    {
+      "id": 91,
+      "start": 392.28000000000003,
+      "end": 395.36,
+      "text": " for our volunteers and employees.",
+      "words": []
+    },
+    {
+      "id": 92,
+      "start": 395.36,
+      "end": 397.88,
+      "text": " Thank you, family.",
+      "words": []
+    },
+    {
+      "id": 93,
+      "start": 397.88,
+      "end": 400.44,
+      "text": " Thank you, Mr. Huffines, any Council of Discussion?",
+      "words": []
+    },
+    {
+      "id": 94,
+      "start": 400.44,
+      "end": 403.04,
+      "text": " Move to approve items to B through 2G.",
+      "words": []
+    },
+    {
+      "id": 95,
+      "start": 403.04,
+      "end": 404.04,
+      "text": " Second.",
+      "words": []
+    },
+    {
+      "id": 96,
+      "start": 404.04,
+      "end": 405.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 97,
+      "start": 405.04,
+      "end": 406.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 98,
+      "start": 406.04,
+      "end": 407.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 99,
+      "start": 407.04,
+      "end": 408.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 100,
+      "start": 408.04,
+      "end": 409.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 101,
+      "start": 409.04,
+      "end": 410.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 102,
+      "start": 410.04,
+      "end": 411.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 103,
+      "start": 411.04,
+      "end": 412.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 104,
+      "start": 412.04,
+      "end": 413.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 105,
+      "start": 413.04,
+      "end": 414.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 106,
+      "start": 414.04,
+      "end": 415.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 107,
+      "start": 415.04,
+      "end": 416.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 108,
+      "start": 416.04,
+      "end": 417.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 109,
+      "start": 417.04,
+      "end": 419.04,
+      "text": " items 2, B through G are approved.",
+      "words": []
+    },
+    {
+      "id": 110,
+      "start": 419.04,
+      "end": 422.04,
+      "text": " Do we have any commissioners present who want to speak?",
+      "words": []
+    },
+    {
+      "id": 111,
+      "start": 422.04,
+      "end": 423.04,
+      "text": " I'll say anything.",
+      "words": []
+    },
+    {
+      "id": 112,
+      "start": 423.04,
+      "end": 424.04,
+      "text": " I want to say anything.",
+      "words": []
+    },
+    {
+      "id": 113,
+      "start": 424.04,
+      "end": 425.04,
+      "text": " Thank you.",
+      "words": []
+    },
+    {
+      "id": 114,
+      "start": 425.04,
+      "end": 426.04,
+      "text": " Yeah.",
+      "words": []
+    },
+    {
+      "id": 115,
+      "start": 426.04,
+      "end": 427.04,
+      "text": " Thank you.",
+      "words": []
+    },
+    {
+      "id": 116,
+      "start": 427.04,
+      "end": 428.04,
+      "text": " Feeling is mutual.",
+      "words": []
+    },
+    {
+      "id": 117,
+      "start": 429.04,
+      "end": 430.04,
+      "text": " Item 3.",
+      "words": []
+    },
+    {
+      "id": 118,
+      "start": 430.04,
+      "end": 431.04,
+      "text": " Public hearings.",
+      "words": []
+    },
+    {
+      "id": 119,
+      "start": 431.04,
+      "end": 434.20000000000005,
+      "text": " A public hearing to receive comments from citizens regarding a proposed ordinance",
+      "words": []
+    },
+    {
+      "id": 120,
+      "start": 434.20000000000005,
+      "end": 439.04,
+      "text": " in many titled 28th Municipal Employees Retirement Plan.",
+      "words": []
+    },
+    {
+      "id": 121,
+      "start": 439.04,
+      "end": 441.04,
+      "text": " Is there a motion to enter public hearings?",
+      "words": []
+    },
+    {
+      "id": 122,
+      "start": 441.04,
+      "end": 442.04,
+      "text": " Move to enter public hearings.",
+      "words": []
+    },
+    {
+      "id": 123,
+      "start": 442.04,
+      "end": 443.04,
+      "text": " Second.",
+      "words": []
+    },
+    {
+      "id": 124,
+      "start": 443.04,
+      "end": 445.04,
+      "text": " Please call the roll.",
+      "words": []
+    },
+    {
+      "id": 125,
+      "start": 445.04,
+      "end": 446.04,
+      "text": " Councilor Bellis.",
+      "words": []
+    },
+    {
+      "id": 126,
+      "start": 446.04,
+      "end": 447.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 127,
+      "start": 447.04,
+      "end": 448.04,
+      "text": " Councilor Gilbert.",
+      "words": []
+    },
+    {
+      "id": 128,
+      "start": 448.04,
+      "end": 449.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 129,
+      "start": 449.04,
+      "end": 450.04,
+      "text": " Councilor Bengel.",
+      "words": []
+    },
+    {
+      "id": 130,
+      "start": 450.04,
+      "end": 451.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 131,
+      "start": 451.04,
+      "end": 452.04,
+      "text": " Councilor Laken.",
+      "words": []
+    },
+    {
+      "id": 132,
+      "start": 452.04,
+      "end": 453.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 133,
+      "start": 453.04,
+      "end": 454.04,
+      "text": " Councilor Bush.",
+      "words": []
+    },
+    {
+      "id": 134,
+      "start": 454.04,
+      "end": 455.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 135,
+      "start": 455.04,
+      "end": 456.04,
+      "text": " Councilor Archie.",
+      "words": []
+    },
+    {
+      "id": 136,
+      "start": 456.04,
+      "end": 457.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 137,
+      "start": 457.04,
+      "end": 460.04,
+      "text": " Please call our first speaker.",
+      "words": []
+    },
+    {
+      "id": 138,
+      "start": 460.04,
+      "end": 461.04,
+      "text": " We have no speakers.",
+      "words": []
+    },
+    {
+      "id": 139,
+      "start": 461.04,
+      "end": 466.04,
+      "text": " Without objection, we will exit public hearings for mayor's items.",
+      "words": []
+    },
+    {
+      "id": 140,
+      "start": 466.04,
+      "end": 470.04,
+      "text": " The mayor's not with us tonight, so we're not going to read A.",
+      "words": []
+    },
+    {
+      "id": 141,
+      "start": 470.04,
+      "end": 476.04,
+      "text": " Item 4, B will be read and voted on separately B as a resolution relating to the incurring",
+      "words": []
+    },
+    {
+      "id": 142,
+      "start": 476.04,
+      "end": 482.04,
+      "text": " of a deadness by TMA for the purpose of funding the cost construction acquisition and equipping",
+      "words": []
+    },
+    {
+      "id": 143,
+      "start": 482.04,
+      "end": 486.04,
+      "text": " capital improvements for the system by issuing the TMA",
+      "words": []
+    },
+    {
+      "id": 144,
+      "start": 486.04,
+      "end": 493.04,
+      "text": " U. A utility revenue bond series 2025A and the utility revenue bond series 2025B and the",
+      "words": []
+    },
+    {
+      "id": 145,
+      "start": 493.04,
+      "end": 499.04,
+      "text": " aggregate principle amount of not to exceed 39.885 million dollars at proving documents as",
+      "words": []
+    },
+    {
+      "id": 146,
+      "start": 499.04,
+      "end": 504.04,
+      "text": " may be necessary or required and it does have the emergency clause.",
+      "words": []
+    },
+    {
+      "id": 147,
+      "start": 504.04,
+      "end": 506.04,
+      "text": " Do we have any speakers?",
+      "words": []
+    },
+    {
+      "id": 148,
+      "start": 506.04,
+      "end": 508.04,
+      "text": " We have no speakers for for B.",
+      "words": []
+    },
+    {
+      "id": 149,
+      "start": 508.04,
+      "end": 511.04,
+      "text": " Is there any counsel plus discussion on the resolution?",
+      "words": []
+    },
+    {
+      "id": 150,
+      "start": 511.04,
+      "end": 514.04,
+      "text": " Move to approve Item 4, B. Second.",
+      "words": []
+    },
+    {
+      "id": 151,
+      "start": 515.04,
+      "end": 517.04,
+      "text": " Okay, for the resolution, please call the roll.",
+      "words": []
+    },
+    {
+      "id": 152,
+      "start": 517.04,
+      "end": 518.04,
+      "text": " Councilor Bellas.",
+      "words": []
+    },
+    {
+      "id": 153,
+      "start": 518.04,
+      "end": 519.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 154,
+      "start": 519.04,
+      "end": 520.04,
+      "text": " Councilor Gilbert.",
+      "words": []
+    },
+    {
+      "id": 155,
+      "start": 520.04,
+      "end": 521.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 156,
+      "start": 521.04,
+      "end": 522.04,
+      "text": " Councilor Bengal.",
+      "words": []
+    },
+    {
+      "id": 157,
+      "start": 522.04,
+      "end": 523.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 158,
+      "start": 523.04,
+      "end": 524.04,
+      "text": " Councilor Dr. Wright.",
+      "words": []
+    },
+    {
+      "id": 159,
+      "start": 524.04,
+      "end": 526.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 160,
+      "start": 526.04,
+      "end": 527.04,
+      "text": " Councilor Bush.",
+      "words": []
+    },
+    {
+      "id": 161,
+      "start": 527.04,
+      "end": 528.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 162,
+      "start": 528.04,
+      "end": 529.04,
+      "text": " Councilor Archie.",
+      "words": []
+    },
+    {
+      "id": 163,
+      "start": 529.04,
+      "end": 530.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 164,
+      "start": 530.04,
+      "end": 532.04,
+      "text": " Item 4, B is approved.",
+      "words": []
+    },
+    {
+      "id": 165,
+      "start": 532.04,
+      "end": 534.04,
+      "text": " Is there a motion for the emergency clause?",
+      "words": []
+    },
+    {
+      "id": 166,
+      "start": 534.04,
+      "end": 536.04,
+      "text": " Move to approve the emergency clause on 4, B.",
+      "words": []
+    },
+    {
+      "id": 167,
+      "start": 536.04,
+      "end": 537.04,
+      "text": " Second.",
+      "words": []
+    },
+    {
+      "id": 168,
+      "start": 537.04,
+      "end": 538.04,
+      "text": " Please call the roll.",
+      "words": []
+    },
+    {
+      "id": 169,
+      "start": 538.04,
+      "end": 539.04,
+      "text": " Councilor Bellas.",
+      "words": []
+    },
+    {
+      "id": 170,
+      "start": 539.04,
+      "end": 540.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 171,
+      "start": 540.04,
+      "end": 541.04,
+      "text": " Councilor Gilbert.",
+      "words": []
+    },
+    {
+      "id": 172,
+      "start": 541.04,
+      "end": 542.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 173,
+      "start": 543.04,
+      "end": 544.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 174,
+      "start": 544.04,
+      "end": 545.04,
+      "text": " Councilor Lincoln.",
+      "words": []
+    },
+    {
+      "id": 175,
+      "start": 545.04,
+      "end": 546.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 176,
+      "start": 546.04,
+      "end": 547.04,
+      "text": " Councilor Bush.",
+      "words": []
+    },
+    {
+      "id": 177,
+      "start": 547.04,
+      "end": 548.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 178,
+      "start": 548.04,
+      "end": 549.04,
+      "text": " Councilor Hall Harper.",
+      "words": []
+    },
+    {
+      "id": 179,
+      "start": 549.04,
+      "end": 550.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 180,
+      "start": 550.04,
+      "end": 551.04,
+      "text": " Councilor Archie.",
+      "words": []
+    },
+    {
+      "id": 181,
+      "start": 551.04,
+      "end": 552.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 182,
+      "start": 552.04,
+      "end": 555.04,
+      "text": " The emergency clause on Item 4, B is approved.",
+      "words": []
+    },
+    {
+      "id": 183,
+      "start": 555.04,
+      "end": 558.04,
+      "text": " The remaining items for C through G will not be read aloud.",
+      "words": []
+    },
+    {
+      "id": 184,
+      "start": 558.04,
+      "end": 562.04,
+      "text": " However, public comments will be received on these items.",
+      "words": []
+    },
+    {
+      "id": 185,
+      "start": 562.04,
+      "end": 564.04,
+      "text": " We have any speakers?",
+      "words": []
+    },
+    {
+      "id": 186,
+      "start": 564.04,
+      "end": 569.04,
+      "text": " We have one speaker, Mr. John Hoffines, for for C and D.",
+      "words": []
+    },
+    {
+      "id": 187,
+      "start": 569.04,
+      "end": 571.04,
+      "text": " Hello again.",
+      "words": []
+    },
+    {
+      "id": 188,
+      "start": 571.04,
+      "end": 573.04,
+      "text": " Thank you, Councillors.",
+      "words": []
+    },
+    {
+      "id": 189,
+      "start": 573.04,
+      "end": 574.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 190,
+      "start": 574.04,
+      "end": 575.04,
+      "text": " Mayors item C.",
+      "words": []
+    },
+    {
+      "id": 191,
+      "start": 575.04,
+      "end": 579.04,
+      "text": " A contract for a shared use agreement with Goodwill Industries.",
+      "words": []
+    },
+    {
+      "id": 192,
+      "start": 579.04,
+      "end": 583.04,
+      "text": " I've tells the ink for the Howard Park parking lot.",
+      "words": []
+    },
+    {
+      "id": 193,
+      "start": 583.04,
+      "end": 584.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 194,
+      "start": 584.04,
+      "end": 586.04,
+      "text": " To this shared use agreement.",
+      "words": []
+    },
+    {
+      "id": 195,
+      "start": 586.04,
+      "end": 589.04,
+      "text": " A little history here on Goodwill Industries.",
+      "words": []
+    },
+    {
+      "id": 196,
+      "start": 589.04,
+      "end": 592.04,
+      "text": " The Methodist Minister of the Gospel of Jesus Christ.",
+      "words": []
+    },
+    {
+      "id": 197,
+      "start": 592.04,
+      "end": 595.04,
+      "text": " Reverend Edgar J. Helms.",
+      "words": []
+    },
+    {
+      "id": 198,
+      "start": 595.04,
+      "end": 600.04,
+      "text": " And the one who is considered by most to be the founder of Goodwill Industries.",
+      "words": []
+    },
+    {
+      "id": 199,
+      "start": 600.04,
+      "end": 606.04,
+      "text": " The originator of Goodwill Industries was the master of men who spoke from a",
+      "words": []
+    },
+    {
+      "id": 200,
+      "start": 606.04,
+      "end": 612.04,
+      "text": " Galilean hillside 19-hundred years ago and commanded his disciples to gather up",
+      "words": []
+    },
+    {
+      "id": 201,
+      "start": 612.04,
+      "end": 615.04,
+      "text": " the fragrance that nothing be lost.",
+      "words": []
+    },
+    {
+      "id": 202,
+      "start": 615.04,
+      "end": 617.04,
+      "text": " Mayors item D.",
+      "words": []
+    },
+    {
+      "id": 203,
+      "start": 617.04,
+      "end": 621.04,
+      "text": " In donation from OSU Fire Service Training to the Tulsa Fire Department for",
+      "words": []
+    },
+    {
+      "id": 204,
+      "start": 621.04,
+      "end": 625.04,
+      "text": " Safe Transportation Training Specialists to host a train",
+      "words": []
+    },
+    {
+      "id": 205,
+      "start": 625.04,
+      "end": 631.04,
+      "text": " and train emergency response workshop at the Tulsa Fire Department training center.",
+      "words": []
+    },
+    {
+      "id": 206,
+      "start": 631.04,
+      "end": 636.04,
+      "text": " I'm grateful for Tulsa's fire department and all our cities first responders.",
+      "words": []
+    },
+    {
+      "id": 207,
+      "start": 636.04,
+      "end": 639.04,
+      "text": " And appreciate the good they are doing for our city.",
+      "words": []
+    },
+    {
+      "id": 208,
+      "start": 639.04,
+      "end": 644.04,
+      "text": " As I've said before, when I see and hear sirens and flashing lights like,",
+      "words": []
+    },
+    {
+      "id": 209,
+      "start": 644.04,
+      "end": 649.04,
+      "text": " I like to speak peace into the situation and speak wisdom for as a decision maker.",
+      "words": []
+    },
+    {
+      "id": 210,
+      "start": 649.04,
+      "end": 654.04,
+      "text": " And speaking of wisdom, it occurs to me to stay in line with our state constitution.",
+      "words": []
+    },
+    {
+      "id": 211,
+      "start": 654.04,
+      "end": 657.04,
+      "text": " Almighty God, we invoke your guidance.",
+      "words": []
+    },
+    {
+      "id": 212,
+      "start": 657.04,
+      "end": 662.04,
+      "text": " Thank you councillors.",
+      "words": []
+    },
+    {
+      "id": 213,
+      "start": 662.04,
+      "end": 666.04,
+      "text": " Move to approve items for C through G with the emergency clause on 4G.",
+      "words": []
+    },
+    {
+      "id": 214,
+      "start": 666.04,
+      "end": 667.04,
+      "text": " Second.",
+      "words": []
+    },
+    {
+      "id": 215,
+      "start": 667.04,
+      "end": 668.04,
+      "text": " Please call the roll.",
+      "words": []
+    },
+    {
+      "id": 216,
+      "start": 668.04,
+      "end": 669.04,
+      "text": " Councillor Bellus.",
+      "words": []
+    },
+    {
+      "id": 217,
+      "start": 669.04,
+      "end": 670.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 218,
+      "start": 670.04,
+      "end": 671.04,
+      "text": " Councillor Gilbert.",
+      "words": []
+    },
+    {
+      "id": 219,
+      "start": 671.04,
+      "end": 672.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 220,
+      "start": 672.04,
+      "end": 673.04,
+      "text": " Councillor Bengel.",
+      "words": []
+    },
+    {
+      "id": 221,
+      "start": 673.04,
+      "end": 674.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 222,
+      "start": 674.04,
+      "end": 675.04,
+      "text": " Councillor Laykin.",
+      "words": []
+    },
+    {
+      "id": 223,
+      "start": 675.04,
+      "end": 676.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 224,
+      "start": 676.04,
+      "end": 677.04,
+      "text": " Councillor Bush.",
+      "words": []
+    },
+    {
+      "id": 225,
+      "start": 677.04,
+      "end": 678.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 226,
+      "start": 678.04,
+      "end": 679.04,
+      "text": " Councillor Hall Harper.",
+      "words": []
+    },
+    {
+      "id": 227,
+      "start": 679.04,
+      "end": 680.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 228,
+      "start": 680.04,
+      "end": 681.04,
+      "text": " Councillor Archie.",
+      "words": []
+    },
+    {
+      "id": 229,
+      "start": 681.04,
+      "end": 682.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 230,
+      "start": 682.04,
+      "end": 686.04,
+      "text": " We'll see through G are approved with the emergency clause on 4G.",
+      "words": []
+    },
+    {
+      "id": 231,
+      "start": 686.04,
+      "end": 687.04,
+      "text": " Five.",
+      "words": []
+    },
+    {
+      "id": 232,
+      "start": 687.04,
+      "end": 688.04,
+      "text": " Authorities boards and commissions.",
+      "words": []
+    },
+    {
+      "id": 233,
+      "start": 688.04,
+      "end": 693.04,
+      "text": " Monthly status report from the sales tax overview committee on current activities and efforts.",
+      "words": []
+    },
+    {
+      "id": 234,
+      "start": 693.04,
+      "end": 694.04,
+      "text": " Good evening.",
+      "words": []
+    },
+    {
+      "id": 235,
+      "start": 694.04,
+      "end": 695.04,
+      "text": " Good evening.",
+      "words": []
+    },
+    {
+      "id": 236,
+      "start": 695.04,
+      "end": 697.04,
+      "text": " Good evening councillors.",
+      "words": []
+    },
+    {
+      "id": 237,
+      "start": 697.04,
+      "end": 702.04,
+      "text": " I'm going to start with zinc dam and just say it's coming in on budget.",
+      "words": []
+    },
+    {
+      "id": 238,
+      "start": 702.04,
+      "end": 706.04,
+      "text": " So I know you've got the facts and figures from the paperwork that we handle.",
+      "words": []
+    },
+    {
+      "id": 239,
+      "start": 706.04,
+      "end": 707.04,
+      "text": " Also.",
+      "words": []
+    },
+    {
+      "id": 240,
+      "start": 707.04,
+      "end": 711.04,
+      "text": " But anyway, that's a really good thing.",
+      "words": []
+    },
+    {
+      "id": 241,
+      "start": 712.04,
+      "end": 713.04,
+      "text": " Number two.",
+      "words": []
+    },
+    {
+      "id": 242,
+      "start": 713.04,
+      "end": 718.04,
+      "text": " As Turkey mountain urban wilderness, they are just completing the additional six miles of trails",
+      "words": []
+    },
+    {
+      "id": 243,
+      "start": 718.04,
+      "end": 722.04,
+      "text": " to be known as the Sanctuary Trails as the February 2025.",
+      "words": []
+    },
+    {
+      "id": 244,
+      "start": 722.04,
+      "end": 728.04,
+      "text": " They will not be open to the public until all the plan trails are constructed.",
+      "words": []
+    },
+    {
+      "id": 245,
+      "start": 728.04,
+      "end": 730.04,
+      "text": " Two parking lot projects are set to be done.",
+      "words": []
+    },
+    {
+      "id": 246,
+      "start": 730.04,
+      "end": 732.04,
+      "text": " The existing gravel lot.",
+      "words": []
+    },
+    {
+      "id": 247,
+      "start": 732.04,
+      "end": 734.04,
+      "text": " At Lwood and West 61st.",
+      "words": []
+    },
+    {
+      "id": 248,
+      "start": 734.04,
+      "end": 736.04,
+      "text": " Via vision and ARPA funds.",
+      "words": []
+    },
+    {
+      "id": 249,
+      "start": 736.04,
+      "end": 740.04,
+      "text": " And a new parking lot for the trailhead at the placeter properties.",
+      "words": []
+    },
+    {
+      "id": 250,
+      "start": 740.04,
+      "end": 744.04,
+      "text": " Via Tulsa County ARPA funds.",
+      "words": []
+    },
+    {
+      "id": 251,
+      "start": 744.04,
+      "end": 750.04,
+      "text": " River Park's authority has received preliminary design for the tunnel for the safe crossing along",
+      "words": []
+    },
+    {
+      "id": 252,
+      "start": 750.04,
+      "end": 751.04,
+      "text": " 71st.",
+      "words": []
+    },
+    {
+      "id": 253,
+      "start": 751.04,
+      "end": 754.04,
+      "text": " And the rehab hard paved trail.",
+      "words": []
+    },
+    {
+      "id": 254,
+      "start": 754.04,
+      "end": 756.04,
+      "text": " And they are under review now.",
+      "words": []
+    },
+    {
+      "id": 255,
+      "start": 756.04,
+      "end": 759.04,
+      "text": " Trail maintenance projects are underway.",
+      "words": []
+    },
+    {
+      "id": 256,
+      "start": 759.04,
+      "end": 764.04,
+      "text": " And both old and new trail alignments are addressing erosion and clearing.",
+      "words": []
+    },
+    {
+      "id": 257,
+      "start": 764.04,
+      "end": 765.04,
+      "text": " Number three.",
+      "words": []
+    },
+    {
+      "id": 258,
+      "start": 765.04,
+      "end": 768.04,
+      "text": " Now that the Tulsa Zoo and elephant exhibit.",
+      "words": []
+    },
+    {
+      "id": 259,
+      "start": 768.04,
+      "end": 773.04,
+      "text": " Barnes and containment yard are wrapping up and soon to have a grand opening.",
+      "words": []
+    },
+    {
+      "id": 260,
+      "start": 773.04,
+      "end": 775.04,
+      "text": " Early next month.",
+      "words": []
+    },
+    {
+      "id": 261,
+      "start": 775.04,
+      "end": 779.04,
+      "text": " TZMI was turning ground earlier this afternoon on its next project.",
+      "words": []
+    },
+    {
+      "id": 262,
+      "start": 779.04,
+      "end": 782.04,
+      "text": " The Tulsa Zoo carnivores habitat.",
+      "words": []
+    },
+    {
+      "id": 263,
+      "start": 782.04,
+      "end": 786.04,
+      "text": " 2014 sales tax budgeted was $8 million.",
+      "words": []
+    },
+    {
+      "id": 264,
+      "start": 786.04,
+      "end": 791.04,
+      "text": " Which is being combined with 20 million 920,000 of private funding.",
+      "words": []
+    },
+    {
+      "id": 265,
+      "start": 792.04,
+      "end": 797.04,
+      "text": " The current cost estimate of $37 million.",
+      "words": []
+    },
+    {
+      "id": 266,
+      "start": 797.04,
+      "end": 799.04,
+      "text": " Cost control cutting activities.",
+      "words": []
+    },
+    {
+      "id": 267,
+      "start": 799.04,
+      "end": 801.04,
+      "text": " Also known as value engineering.",
+      "words": []
+    },
+    {
+      "id": 268,
+      "start": 801.04,
+      "end": 805.04,
+      "text": " To reduce the overall cost of the project are being made.",
+      "words": []
+    },
+    {
+      "id": 269,
+      "start": 805.04,
+      "end": 810.04,
+      "text": " And TZMI is raising the final money required to totally fund the project.",
+      "words": []
+    },
+    {
+      "id": 270,
+      "start": 810.04,
+      "end": 815.04,
+      "text": " Package one has been advertised and public bids were due back to the city last week.",
+      "words": []
+    },
+    {
+      "id": 271,
+      "start": 815.04,
+      "end": 817.04,
+      "text": " February 25.",
+      "words": []
+    },
+    {
+      "id": 272,
+      "start": 817.04,
+      "end": 818.04,
+      "text": " Number four.",
+      "words": []
+    },
+    {
+      "id": 273,
+      "start": 818.04,
+      "end": 823.04,
+      "text": " Johnson Park at 61st in South Riverside Drive is in for the total makeover.",
+      "words": []
+    },
+    {
+      "id": 274,
+      "start": 823.04,
+      "end": 826.04,
+      "text": " And land plan is proceeding with the design.",
+      "words": []
+    },
+    {
+      "id": 275,
+      "start": 826.04,
+      "end": 829.04,
+      "text": " And an advertising date for this coming summer.",
+      "words": []
+    },
+    {
+      "id": 276,
+      "start": 829.04,
+      "end": 833.04,
+      "text": " To be and the project to be completed in the fall of 2026.",
+      "words": []
+    },
+    {
+      "id": 277,
+      "start": 833.04,
+      "end": 835.04,
+      "text": " Number five.",
+      "words": []
+    },
+    {
+      "id": 278,
+      "start": 835.04,
+      "end": 840.04,
+      "text": " Orange barrels will remain at bridge number 20204 on East 21st in South",
+      "words": []
+    },
+    {
+      "id": 279,
+      "start": 840.04,
+      "end": 843.04,
+      "text": " Mingo over the creek just east of southernlands.",
+      "words": []
+    },
+    {
+      "id": 280,
+      "start": 843.04,
+      "end": 846.04,
+      "text": " Past its anticipated completion date of next month.",
+      "words": []
+    },
+    {
+      "id": 281,
+      "start": 846.04,
+      "end": 847.04,
+      "text": " April.",
+      "words": []
+    },
+    {
+      "id": 282,
+      "start": 847.04,
+      "end": 852.04,
+      "text": " For an additional 45 days due to the need to replace the bridge seats on both sides of the bridge.",
+      "words": []
+    },
+    {
+      "id": 283,
+      "start": 852.04,
+      "end": 857.04,
+      "text": " Erosion and flaking layers of rest have developed over the past five years.",
+      "words": []
+    },
+    {
+      "id": 284,
+      "start": 857.04,
+      "end": 860.04,
+      "text": " Since the initial work was scoped out.",
+      "words": []
+    },
+    {
+      "id": 285,
+      "start": 860.04,
+      "end": 865.04,
+      "text": " And the seats were in good conditions five years ago, but not anymore.",
+      "words": []
+    },
+    {
+      "id": 286,
+      "start": 865.04,
+      "end": 867.04,
+      "text": " Number six.",
+      "words": []
+    },
+    {
+      "id": 287,
+      "start": 867.04,
+      "end": 872.04,
+      "text": " As four stock fire engines are set to go into service in March and early April.",
+      "words": []
+    },
+    {
+      "id": 288,
+      "start": 873.04,
+      "end": 881.04,
+      "text": " Tulsa fire department is going to allow the firefighters to have some input on where specific tools will be located on the engines.",
+      "words": []
+    },
+    {
+      "id": 289,
+      "start": 881.04,
+      "end": 883.04,
+      "text": " Before they're permanently affixed.",
+      "words": []
+    },
+    {
+      "id": 290,
+      "start": 883.04,
+      "end": 888.04,
+      "text": " Tulsa police departments new helicopter hanger is on track for a late spring grand opening.",
+      "words": []
+    },
+    {
+      "id": 291,
+      "start": 888.04,
+      "end": 890.04,
+      "text": " Number seven.",
+      "words": []
+    },
+    {
+      "id": 292,
+      "start": 890.04,
+      "end": 893.04,
+      "text": " Tulsa animal service shelter beds were open February 4th.",
+      "words": []
+    },
+    {
+      "id": 293,
+      "start": 893.04,
+      "end": 898.04,
+      "text": " All packages receive beds and beds results are pending.",
+      "words": []
+    },
+    {
+      "id": 294,
+      "start": 898.04,
+      "end": 899.04,
+      "text": " Number eight.",
+      "words": []
+    },
+    {
+      "id": 295,
+      "start": 899.04,
+      "end": 906.04,
+      "text": " The Civic Center Park 8 elevator modernization of one million three hundred fifty thousand dollars bid was accepted.",
+      "words": []
+    },
+    {
+      "id": 296,
+      "start": 906.04,
+      "end": 909.04,
+      "text": " Contract is in progress or process.",
+      "words": []
+    },
+    {
+      "id": 297,
+      "start": 909.04,
+      "end": 913.04,
+      "text": " The elevators are well over the life expectancy.",
+      "words": []
+    },
+    {
+      "id": 298,
+      "start": 913.04,
+      "end": 918.04,
+      "text": " Sometimes they're having trouble with one or two and you're not going to figure out how to get out of there.",
+      "words": []
+    },
+    {
+      "id": 299,
+      "start": 918.04,
+      "end": 920.04,
+      "text": " So it needs to be done.",
+      "words": []
+    },
+    {
+      "id": 300,
+      "start": 920.04,
+      "end": 922.04,
+      "text": " It's an emergency.",
+      "words": []
+    },
+    {
+      "id": 301,
+      "start": 923.04,
+      "end": 932.04,
+      "text": " Nine Woodward Park ground breaking was delayed in January this year while contractors tried to locate a 90 inch RCP pipe.",
+      "words": []
+    },
+    {
+      "id": 302,
+      "start": 932.04,
+      "end": 938.04,
+      "text": " That was a standard size when the old one was installed 100 years ago.",
+      "words": []
+    },
+    {
+      "id": 303,
+      "start": 938.04,
+      "end": 943.04,
+      "text": " Today's standard is 96 due to the soil level and ground clearance.",
+      "words": []
+    },
+    {
+      "id": 304,
+      "start": 943.04,
+      "end": 949.04,
+      "text": " It was decided that less earth would have to be excavated if the 90 inch line could be secured.",
+      "words": []
+    },
+    {
+      "id": 305,
+      "start": 949.04,
+      "end": 952.04,
+      "text": " And a company in Dallas, Texas is fabricating one.",
+      "words": []
+    },
+    {
+      "id": 306,
+      "start": 952.04,
+      "end": 955.04,
+      "text": " And as soon as it's received in mid March.",
+      "words": []
+    },
+    {
+      "id": 307,
+      "start": 955.04,
+      "end": 958.04,
+      "text": " Construction and excavation work will begin.",
+      "words": []
+    },
+    {
+      "id": 308,
+      "start": 958.04,
+      "end": 959.04,
+      "text": " Number 10.",
+      "words": []
+    },
+    {
+      "id": 309,
+      "start": 959.04,
+      "end": 966.04,
+      "text": " McClure Park pool's observation terraces artificial turf and sunsale have been ordered from ACS.",
+      "words": []
+    },
+    {
+      "id": 310,
+      "start": 966.04,
+      "end": 970.04,
+      "text": " Installation is estimated to begin in March or April.",
+      "words": []
+    },
+    {
+      "id": 311,
+      "start": 970.04,
+      "end": 975.04,
+      "text": " And once again, the promise is that it will be ready for this summer swim season.",
+      "words": []
+    },
+    {
+      "id": 312,
+      "start": 975.04,
+      "end": 978.04,
+      "text": " Fingers crossed.",
+      "words": []
+    },
+    {
+      "id": 313,
+      "start": 978.04,
+      "end": 981.04,
+      "text": " At last week's monthly STOC meeting.",
+      "words": []
+    },
+    {
+      "id": 314,
+      "start": 981.04,
+      "end": 986.04,
+      "text": " Senior Vice President of Economic and Workforce Development Michelle Barnett.",
+      "words": []
+    },
+    {
+      "id": 315,
+      "start": 986.04,
+      "end": 988.04,
+      "text": " Partner Tulsa and Jonah Tois.",
+      "words": []
+    },
+    {
+      "id": 316,
+      "start": 988.04,
+      "end": 990.04,
+      "text": " Small business manager.",
+      "words": []
+    },
+    {
+      "id": 317,
+      "start": 990.04,
+      "end": 995.04,
+      "text": " Partner Tulsa made a presentation to the STOC to deepen our understanding.",
+      "words": []
+    },
+    {
+      "id": 318,
+      "start": 995.04,
+      "end": 1000.04,
+      "text": " And the progress made today to the retail revitalization revolving loan fund.",
+      "words": []
+    },
+    {
+      "id": 319,
+      "start": 1000.04,
+      "end": 1003.04,
+      "text": " That's RRLF.",
+      "words": []
+    },
+    {
+      "id": 320,
+      "start": 1003.0400000000001,
+      "end": 1009.0400000000001,
+      "text": " The voter approved vision Tulsa Citywide and Route 66 beautification and reinvestment fund.",
+      "words": []
+    },
+    {
+      "id": 321,
+      "start": 1009.0400000000001,
+      "end": 1021.0400000000001,
+      "text": " Provided $1.5 million for this loan fund to assist in the development and redevelopment of properties located along bus rapid transit routes.",
+      "words": []
+    },
+    {
+      "id": 322,
+      "start": 1021.0400000000001,
+      "end": 1025.04,
+      "text": " And retail revitalization corridors in the city of Tulsa.",
+      "words": []
+    },
+    {
+      "id": 323,
+      "start": 1025.04,
+      "end": 1031.04,
+      "text": " These loans are low interest short-term loans through a program awarded by the city.",
+      "words": []
+    },
+    {
+      "id": 324,
+      "start": 1031.04,
+      "end": 1039.04,
+      "text": " And administered and monitored in accordance between the city of Tulsa and the Tulsa economic development corporation by partner Tulsa.",
+      "words": []
+    },
+    {
+      "id": 325,
+      "start": 1039.04,
+      "end": 1048.04,
+      "text": " As of December 1, 2024, the city has awarded $725,058 out of the fund.",
+      "words": []
+    },
+    {
+      "id": 326,
+      "start": 1048.04,
+      "end": 1054.04,
+      "text": " The average loan per business totaled $13,580.",
+      "words": []
+    },
+    {
+      "id": 327,
+      "start": 1054.04,
+      "end": 1059.04,
+      "text": " Overall, 57% of the awards were under $100,000.",
+      "words": []
+    },
+    {
+      "id": 328,
+      "start": 1059.04,
+      "end": 1062.04,
+      "text": " With 48% of funds still available.",
+      "words": []
+    },
+    {
+      "id": 329,
+      "start": 1062.04,
+      "end": 1072.04,
+      "text": " 2025 will focus on marketing and promotion of the RRRFL to ensure that more businesses can access interest free capital.",
+      "words": []
+    },
+    {
+      "id": 330,
+      "start": 1072.04,
+      "end": 1080.04,
+      "text": " Future actions involve snagging additional non-city capitalization of the RRRLF from HUD.",
+      "words": []
+    },
+    {
+      "id": 331,
+      "start": 1080.04,
+      "end": 1092.04,
+      "text": " That will specifically focus on the geography of the North Peoria and 36th Street North Corridors serving Tulsa housing authorities in vision command she redevelopment.",
+      "words": []
+    },
+    {
+      "id": 332,
+      "start": 1092.04,
+      "end": 1097.04,
+      "text": " And also regarding the STOC vacancies that are current.",
+      "words": []
+    },
+    {
+      "id": 333,
+      "start": 1097.04,
+      "end": 1104.04,
+      "text": " My 12 month attendance record shows one vacancy in District 3 unless somebody's coming.",
+      "words": []
+    },
+    {
+      "id": 334,
+      "start": 1104.04,
+      "end": 1109.04,
+      "text": " And one vacancy amongst the mayor's three representatives.",
+      "words": []
+    },
+    {
+      "id": 335,
+      "start": 1109.04,
+      "end": 1114.04,
+      "text": " I understand that your riot Davis is District 6's appointment.",
+      "words": []
+    },
+    {
+      "id": 336,
+      "start": 1114.04,
+      "end": 1120.04,
+      "text": " And he is going through the process and joining the STOC very soon.",
+      "words": []
+    },
+    {
+      "id": 337,
+      "start": 1120.04,
+      "end": 1121.04,
+      "text": " Thank you.",
+      "words": []
+    },
+    {
+      "id": 338,
+      "start": 1121.04,
+      "end": 1124.04,
+      "text": " Any questions?",
+      "words": []
+    },
+    {
+      "id": 339,
+      "start": 1124.04,
+      "end": 1125.04,
+      "text": " Oh yes.",
+      "words": []
+    },
+    {
+      "id": 340,
+      "start": 1125.04,
+      "end": 1126.04,
+      "text": " Councillor.",
+      "words": []
+    },
+    {
+      "id": 341,
+      "start": 1126.04,
+      "end": 1127.04,
+      "text": " Thank you for your report.",
+      "words": []
+    },
+    {
+      "id": 342,
+      "start": 1127.04,
+      "end": 1130.04,
+      "text": " I think the mayor or the appointee are looking for can be for us.",
+      "words": []
+    },
+    {
+      "id": 343,
+      "start": 1130.04,
+      "end": 1133.04,
+      "text": " So they'll get approved soon and sooner than soon.",
+      "words": []
+    },
+    {
+      "id": 344,
+      "start": 1133.04,
+      "end": 1134.04,
+      "text": " Get to come.",
+      "words": []
+    },
+    {
+      "id": 345,
+      "start": 1134.04,
+      "end": 1135.04,
+      "text": " Be at your table.",
+      "words": []
+    },
+    {
+      "id": 346,
+      "start": 1135.04,
+      "end": 1136.04,
+      "text": " Great.",
+      "words": []
+    },
+    {
+      "id": 347,
+      "start": 1136.04,
+      "end": 1137.04,
+      "text": " Thank you very much.",
+      "words": []
+    },
+    {
+      "id": 348,
+      "start": 1137.04,
+      "end": 1138.04,
+      "text": " Thank you again.",
+      "words": []
+    },
+    {
+      "id": 349,
+      "start": 1138.04,
+      "end": 1140.04,
+      "text": " Thanks for your good report.",
+      "words": []
+    },
+    {
+      "id": 350,
+      "start": 1140.04,
+      "end": 1143.04,
+      "text": " We have any speakers on the STOC report.",
+      "words": []
+    },
+    {
+      "id": 351,
+      "start": 1143.04,
+      "end": 1154.04,
+      "text": " We have one speaker, Mr. John Hoffines, for 5A.",
+      "words": []
+    },
+    {
+      "id": 352,
+      "start": 1154.04,
+      "end": 1156.04,
+      "text": " Thank you, Councillors.",
+      "words": []
+    },
+    {
+      "id": 353,
+      "start": 1156.04,
+      "end": 1158.04,
+      "text": " Authorities, boards and commissions, 5A.",
+      "words": []
+    },
+    {
+      "id": 354,
+      "start": 1158.04,
+      "end": 1159.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 355,
+      "start": 1159.04,
+      "end": 1166.04,
+      "text": " I'm grateful for the unity and harmony the sales tax overview committee operates in in order to produce these great reports.",
+      "words": []
+    },
+    {
+      "id": 356,
+      "start": 1166.04,
+      "end": 1171.04,
+      "text": " Under parks, we have seen in our supporting documentation about public zoo improvements.",
+      "words": []
+    },
+    {
+      "id": 357,
+      "start": 1171.04,
+      "end": 1178.04,
+      "text": " An easy to imagine major improvement for our public zoo is an exhibit building in a chapel with a tall steeple with a cross-reaching heaven.",
+      "words": []
+    },
+    {
+      "id": 358,
+      "start": 1178.04,
+      "end": 1183.04,
+      "text": " We're acknowledging natures in our creator, God, the Father, our Lord Jesus Christ.",
+      "words": []
+    },
+    {
+      "id": 359,
+      "start": 1183.04,
+      "end": 1188.04,
+      "text": " This is a great step forward for our progressive and innovative community, Tulsa, Oklahoma.",
+      "words": []
+    },
+    {
+      "id": 360,
+      "start": 1188.04,
+      "end": 1190.04,
+      "text": " Thank you, family.",
+      "words": []
+    },
+    {
+      "id": 361,
+      "start": 1190.04,
+      "end": 1191.04,
+      "text": " Thank you, Mr. Hoffines.",
+      "words": []
+    },
+    {
+      "id": 362,
+      "start": 1191.04,
+      "end": 1192.04,
+      "text": " Six ordinances.",
+      "words": []
+    },
+    {
+      "id": 363,
+      "start": 1192.04,
+      "end": 1195.04,
+      "text": " This is first reading the following items in the section of the agenda.",
+      "words": []
+    },
+    {
+      "id": 364,
+      "start": 1195.04,
+      "end": 1196.04,
+      "text": " We'll not be read aloud.",
+      "words": []
+    },
+    {
+      "id": 365,
+      "start": 1196.04,
+      "end": 1202.04,
+      "text": " And without objection, item 6A through D will be forwarded to the next council meeting for action.",
+      "words": []
+    },
+    {
+      "id": 366,
+      "start": 1202.04,
+      "end": 1203.04,
+      "text": " Seven ordinances.",
+      "words": []
+    },
+    {
+      "id": 367,
+      "start": 1203.04,
+      "end": 1204.04,
+      "text": " Second reading.",
+      "words": []
+    },
+    {
+      "id": 368,
+      "start": 1204.04,
+      "end": 1206.04,
+      "text": " A rezoning ordinance.",
+      "words": []
+    },
+    {
+      "id": 369,
+      "start": 1206.04,
+      "end": 1208.04,
+      "text": " Z7805.",
+      "words": []
+    },
+    {
+      "id": 370,
+      "start": 1208.04,
+      "end": 1213.04,
+      "text": " From RS3 to CS, we're property located north of the northeast corner of the East Admiral Place North.",
+      "words": []
+    },
+    {
+      "id": 371,
+      "start": 1213.04,
+      "end": 1216.04,
+      "text": " And north, 91st, east Avenue.",
+      "words": []
+    },
+    {
+      "id": 372,
+      "start": 1216.04,
+      "end": 1220.04,
+      "text": " Be ordinance emitting the fiscal year 2425 budget.",
+      "words": []
+    },
+    {
+      "id": 373,
+      "start": 1220.04,
+      "end": 1227.04,
+      "text": " To make supplemental appropriations of 527,476 dollars.",
+      "words": []
+    },
+    {
+      "id": 374,
+      "start": 1227.04,
+      "end": 1233.04,
+      "text": " Recognized from the unappropriated fund balance with the public works non-federal grant subfund.",
+      "words": []
+    },
+    {
+      "id": 375,
+      "start": 1233.04,
+      "end": 1234.04,
+      "text": " It's for Turkey Mountain.",
+      "words": []
+    },
+    {
+      "id": 376,
+      "start": 1234.04,
+      "end": 1238.04,
+      "text": " See ordinance emitting the fiscal year 202425.",
+      "words": []
+    },
+    {
+      "id": 377,
+      "start": 1238.04,
+      "end": 1242.04,
+      "text": " Budget to transfer unencumbered and unexpected appropriation balances.",
+      "words": []
+    },
+    {
+      "id": 378,
+      "start": 1242.04,
+      "end": 1247.04,
+      "text": " A 468,532 dollars and 40 cents.",
+      "words": []
+    },
+    {
+      "id": 379,
+      "start": 1247.04,
+      "end": 1250.04,
+      "text": " For the city's grant river pump station.",
+      "words": []
+    },
+    {
+      "id": 380,
+      "start": 1250.04,
+      "end": 1251.04,
+      "text": " Maintenance.",
+      "words": []
+    },
+    {
+      "id": 381,
+      "start": 1251.04,
+      "end": 1256.04,
+      "text": " The ordinance emitting the 25 fiscal year and budget to transfer unencumbered.",
+      "words": []
+    },
+    {
+      "id": 382,
+      "start": 1256.04,
+      "end": 1263.04,
+      "text": " An unexpected appropriation balances of 46,728 dollars and 78 cents.",
+      "words": []
+    },
+    {
+      "id": 383,
+      "start": 1263.04,
+      "end": 1271.04,
+      "text": " Between projects within the storm water capital project subfund and 254,741 dollars and 32 cents.",
+      "words": []
+    },
+    {
+      "id": 384,
+      "start": 1271.04,
+      "end": 1276.04,
+      "text": " Between projects within the team UA water capital project subfund.",
+      "words": []
+    },
+    {
+      "id": 385,
+      "start": 1276.04,
+      "end": 1280.04,
+      "text": " E ordinance emitting the fiscal year 2425 budget.",
+      "words": []
+    },
+    {
+      "id": 386,
+      "start": 1280.04,
+      "end": 1286.04,
+      "text": " To make supplemental appropriations of 116,374 dollars and 53 cents.",
+      "words": []
+    },
+    {
+      "id": 387,
+      "start": 1286.04,
+      "end": 1289.04,
+      "text": " For public works vehicle replacement.",
+      "words": []
+    },
+    {
+      "id": 388,
+      "start": 1289.04,
+      "end": 1296.04,
+      "text": " F ordinance emitting the fiscal year 2425 budget to make supplemental appropriations of 1.99 million.",
+      "words": []
+    },
+    {
+      "id": 389,
+      "start": 1296.04,
+      "end": 1300.04,
+      "text": " From grant revenues to be received from the United States Department of Justice.",
+      "words": []
+    },
+    {
+      "id": 390,
+      "start": 1300.04,
+      "end": 1308.04,
+      "text": " And this deals with Department of Justice Community-based violence intervention and prevention in initiatives program.",
+      "words": []
+    },
+    {
+      "id": 391,
+      "start": 1308.04,
+      "end": 1316.04,
+      "text": " Angie Ornance amending the fiscal year 2425 budget to make supplemental appropriations of 115,000 dollars.",
+      "words": []
+    },
+    {
+      "id": 392,
+      "start": 1316.04,
+      "end": 1320.04,
+      "text": " Relating to the office of children, youth, and families.",
+      "words": []
+    },
+    {
+      "id": 393,
+      "start": 1320.04,
+      "end": 1323.04,
+      "text": " How bad we have some speakers on this.",
+      "words": []
+    },
+    {
+      "id": 394,
+      "start": 1323.04,
+      "end": 1329.04,
+      "text": " We have one speaker, Mr. John Hoffines, for seven B and C.",
+      "words": []
+    },
+    {
+      "id": 395,
+      "start": 1329.04,
+      "end": 1336.04,
+      "text": " Thank you, Councillors.",
+      "words": []
+    },
+    {
+      "id": 396,
+      "start": 1336.04,
+      "end": 1338.04,
+      "text": " Yes, seven B.",
+      "words": []
+    },
+    {
+      "id": 397,
+      "start": 1338.04,
+      "end": 1350.04,
+      "text": " An ordinance emitting the fiscal year 2425 budget to make supplemental appropriations recognized from unappropriated fund balance with the public works non federal grant subfund.",
+      "words": []
+    },
+    {
+      "id": 398,
+      "start": 1350.04,
+      "end": 1352.04,
+      "text": " Turkey Mountain urban wilderness.",
+      "words": []
+    },
+    {
+      "id": 399,
+      "start": 1352.04,
+      "end": 1357.04,
+      "text": " Late 2020 seems like that in supporting document documentation.",
+      "words": []
+    },
+    {
+      "id": 400,
+      "start": 1357.04,
+      "end": 1367.04,
+      "text": " The city of Tulsa purchased additional land between the northwest corner of Turkey Mountain and highway US 75 to preserve the natural wilderness from future development.",
+      "words": []
+    },
+    {
+      "id": 401,
+      "start": 1367.04,
+      "end": 1380.04,
+      "text": " This has been appreciated and also there are several of us that get together on our pretty regular basis and we go up there and we pray over the city and pray blessings over the city and all are welcome.",
+      "words": []
+    },
+    {
+      "id": 402,
+      "start": 1380.04,
+      "end": 1393.04,
+      "text": " See, an ordinance amending the fiscal 2024-2025 budget to transfer un-covered and un-expended appropriation balances between projects within the TMA water capital projects subfund.",
+      "words": []
+    },
+    {
+      "id": 403,
+      "start": 1393.04,
+      "end": 1405.04,
+      "text": " Speaking of the TMA water capital projects fund, I'm grateful for all this honorable council does to keep our water flowing into our homes.",
+      "words": []
+    },
+    {
+      "id": 404,
+      "start": 1405.04,
+      "end": 1409.04,
+      "text": " In order to continue to thrive, we must have an abundant supply of water.",
+      "words": []
+    },
+    {
+      "id": 405,
+      "start": 1409.04,
+      "end": 1416.04,
+      "text": " Also, a good supply of the water of God's Word is found in the holy Bible, helps keep our souls watered and nourished.",
+      "words": []
+    },
+    {
+      "id": 406,
+      "start": 1416.04,
+      "end": 1418.04,
+      "text": " Yes, thank you, Councillors.",
+      "words": []
+    },
+    {
+      "id": 407,
+      "start": 1418.04,
+      "end": 1421.04,
+      "text": " Thank you, Mr. Huffinds. Any other speakers?",
+      "words": []
+    },
+    {
+      "id": 408,
+      "start": 1421.04,
+      "end": 1423.04,
+      "text": " We have no other speakers.",
+      "words": []
+    },
+    {
+      "id": 409,
+      "start": 1423.04,
+      "end": 1425.04,
+      "text": " Okay, council discussion.",
+      "words": []
+    },
+    {
+      "id": 410,
+      "start": 1425.04,
+      "end": 1428.04,
+      "text": " Move to approve item seven A through G. Second.",
+      "words": []
+    },
+    {
+      "id": 411,
+      "start": 1428.04,
+      "end": 1430.04,
+      "text": " Please call the roll.",
+      "words": []
+    },
+    {
+      "id": 412,
+      "start": 1430.04,
+      "end": 1432.04,
+      "text": " Councillor Bellus. Yes.",
+      "words": []
+    },
+    {
+      "id": 413,
+      "start": 1432.04,
+      "end": 1434.04,
+      "text": " Councillor Gilbert. Yes.",
+      "words": []
+    },
+    {
+      "id": 414,
+      "start": 1434.04,
+      "end": 1435.04,
+      "text": " Councillor Vengel. Yes.",
+      "words": []
+    },
+    {
+      "id": 415,
+      "start": 1435.04,
+      "end": 1437.04,
+      "text": " Councillor Dector, right? Yes.",
+      "words": []
+    },
+    {
+      "id": 416,
+      "start": 1437.04,
+      "end": 1438.04,
+      "text": " Councillor Laken. Yes.",
+      "words": []
+    },
+    {
+      "id": 417,
+      "start": 1438.04,
+      "end": 1439.04,
+      "text": " Councillor Bush. Yes.",
+      "words": []
+    },
+    {
+      "id": 418,
+      "start": 1439.04,
+      "end": 1441.04,
+      "text": " Councillor Huffinds. Yes.",
+      "words": []
+    },
+    {
+      "id": 419,
+      "start": 1441.04,
+      "end": 1442.04,
+      "text": " Councillor Archie. Yes.",
+      "words": []
+    },
+    {
+      "id": 420,
+      "start": 1442.04,
+      "end": 1444.04,
+      "text": " Councillor Dector. Yes.",
+      "words": []
+    },
+    {
+      "id": 421,
+      "start": 1444.04,
+      "end": 1445.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 422,
+      "start": 1445.04,
+      "end": 1448.04,
+      "text": " Seven A through G. R. Approved.",
+      "words": []
+    },
+    {
+      "id": 423,
+      "start": 1448.04,
+      "end": 1450.04,
+      "text": " Mayor Nichols will be so relieved.",
+      "words": []
+    },
+    {
+      "id": 424,
+      "start": 1450.04,
+      "end": 1459.04,
+      "text": " Eight council items, A. Calcers announcements and reports on community events, activities, efforts and concerns other than announcements and reports.",
+      "words": []
+    },
+    {
+      "id": 425,
+      "start": 1459.04,
+      "end": 1461.04,
+      "text": " Any other questions?",
+      "words": []
+    },
+    {
+      "id": 426,
+      "start": 1461.04,
+      "end": 1463.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 427,
+      "start": 1463.04,
+      "end": 1468.04,
+      "text": " So, I want to announce the district five monthly meeting.",
+      "words": []
+    },
+    {
+      "id": 428,
+      "start": 1468.04,
+      "end": 1473.04,
+      "text": " It will be held on March 11th, which is the second Tuesday of this month.",
+      "words": []
+    },
+    {
+      "id": 429,
+      "start": 1473.04,
+      "end": 1480.04,
+      "text": " So, these meetings were keeping our word of making sure that they are scheduled on the second Tuesday of every month.",
+      "words": []
+    },
+    {
+      "id": 430,
+      "start": 1480.04,
+      "end": 1484.04,
+      "text": " So, everyone can keep track of it, keep it easily in their head.",
+      "words": []
+    },
+    {
+      "id": 431,
+      "start": 1484.04,
+      "end": 1490.04,
+      "text": " It will be from six to seven at the Tulsa Tech Limley campus in the client services building.",
+      "words": []
+    },
+    {
+      "id": 432,
+      "start": 1490.04,
+      "end": 1504.04,
+      "text": " This month, we will have someone from code inspections to come out and address what exactly are code violations, especially with the spring weather growing season.",
+      "words": []
+    },
+    {
+      "id": 433,
+      "start": 1504.04,
+      "end": 1513.04,
+      "text": " So, everyone can bring their questions, ask code enforcement, and we'll be there from six to seven on Tuesday, March 11th.",
+      "words": []
+    },
+    {
+      "id": 434,
+      "start": 1514.04,
+      "end": 1516.04,
+      "text": " Calcers.",
+      "words": []
+    },
+    {
+      "id": 435,
+      "start": 1516.04,
+      "end": 1521.04,
+      "text": " So, we'll invite everyone this weekend down to the B.O.K.",
+      "words": []
+    },
+    {
+      "id": 436,
+      "start": 1521.04,
+      "end": 1526.04,
+      "text": " The Big 12 Wrestling Championship is happening.",
+      "words": []
+    },
+    {
+      "id": 437,
+      "start": 1526.04,
+      "end": 1535.04,
+      "text": " It's one of our, I mean, it's going to be a humongous regional opportunity of wrestlers from universities all over the country will be competing.",
+      "words": []
+    },
+    {
+      "id": 438,
+      "start": 1535.04,
+      "end": 1540.04,
+      "text": " And if you come on Sunday night, you'll be able to see me in Councillor Bangle.",
+      "words": []
+    },
+    {
+      "id": 439,
+      "start": 1540.04,
+      "end": 1545.04,
+      "text": " We're going to give you about the awards, and so, yeah, it's going to be very exciting.",
+      "words": []
+    },
+    {
+      "id": 440,
+      "start": 1545.04,
+      "end": 1550.04,
+      "text": " But Tulsa is a regional hub for a big 12 wrestling.",
+      "words": []
+    },
+    {
+      "id": 441,
+      "start": 1550.04,
+      "end": 1552.04,
+      "text": " So, very exciting.",
+      "words": []
+    },
+    {
+      "id": 442,
+      "start": 1552.04,
+      "end": 1555.04,
+      "text": " This is in District 2 versus District 6.",
+      "words": []
+    },
+    {
+      "id": 443,
+      "start": 1555.04,
+      "end": 1556.04,
+      "text": " It may be a wrestle.",
+      "words": []
+    },
+    {
+      "id": 444,
+      "start": 1556.04,
+      "end": 1558.04,
+      "text": " I mean, we're both, you know, pretty.",
+      "words": []
+    },
+    {
+      "id": 445,
+      "start": 1558.04,
+      "end": 1560.04,
+      "text": " That's what I heard is that they're wrestling.",
+      "words": []
+    },
+    {
+      "id": 446,
+      "start": 1560.04,
+      "end": 1561.04,
+      "text": " There might be a wrestling.",
+      "words": []
+    },
+    {
+      "id": 447,
+      "start": 1561.04,
+      "end": 1562.04,
+      "text": " Yeah.",
+      "words": []
+    },
+    {
+      "id": 448,
+      "start": 1562.04,
+      "end": 1564.04,
+      "text": " I think we should spread that rumor.",
+      "words": []
+    },
+    {
+      "id": 449,
+      "start": 1564.04,
+      "end": 1567.04,
+      "text": " I think it's a thumb for arm wrestling.",
+      "words": []
+    },
+    {
+      "id": 450,
+      "start": 1567.04,
+      "end": 1569.04,
+      "text": " You have to wear what are those things that they wear?",
+      "words": []
+    },
+    {
+      "id": 451,
+      "start": 1570.04,
+      "end": 1571.04,
+      "text": " A little onesy.",
+      "words": []
+    },
+    {
+      "id": 452,
+      "start": 1571.04,
+      "end": 1573.04,
+      "text": " The singlet.",
+      "words": []
+    },
+    {
+      "id": 453,
+      "start": 1573.04,
+      "end": 1574.04,
+      "text": " Yeah.",
+      "words": []
+    },
+    {
+      "id": 454,
+      "start": 1574.04,
+      "end": 1576.04,
+      "text": " I don't mind.",
+      "words": []
+    },
+    {
+      "id": 455,
+      "start": 1576.04,
+      "end": 1578.04,
+      "text": " Oh, you did.",
+      "words": []
+    },
+    {
+      "id": 456,
+      "start": 1578.04,
+      "end": 1580.04,
+      "text": " Sounds like a good fundraiser.",
+      "words": []
+    },
+    {
+      "id": 457,
+      "start": 1580.04,
+      "end": 1582.04,
+      "text": " I watched, I watched wrestling.",
+      "words": []
+    },
+    {
+      "id": 458,
+      "start": 1582.04,
+      "end": 1584.04,
+      "text": " I will not be watching that.",
+      "words": []
+    },
+    {
+      "id": 459,
+      "start": 1584.04,
+      "end": 1586.04,
+      "text": " Thank you.",
+      "words": []
+    },
+    {
+      "id": 460,
+      "start": 1586.04,
+      "end": 1590.04,
+      "text": " How do we get sidetracked on that?",
+      "words": []
+    },
+    {
+      "id": 461,
+      "start": 1590.04,
+      "end": 1593.04,
+      "text": " Anyone else?",
+      "words": []
+    },
+    {
+      "id": 462,
+      "start": 1593.04,
+      "end": 1596.04,
+      "text": " This is going to cross our point of order.",
+      "words": []
+    },
+    {
+      "id": 463,
+      "start": 1596.04,
+      "end": 1599.04,
+      "text": " Okay.",
+      "words": []
+    },
+    {
+      "id": 464,
+      "start": 1599.04,
+      "end": 1600.04,
+      "text": " Okay.",
+      "words": []
+    },
+    {
+      "id": 465,
+      "start": 1600.04,
+      "end": 1601.04,
+      "text": " Moving on.",
+      "words": []
+    },
+    {
+      "id": 466,
+      "start": 1601.04,
+      "end": 1605.04,
+      "text": " Be consideration and possible approval of city council",
+      "words": []
+    },
+    {
+      "id": 467,
+      "start": 1605.04,
+      "end": 1610.04,
+      "text": " Initiation and proposed zoning code amendments to allow roof signs in the CBD.",
+      "words": []
+    },
+    {
+      "id": 468,
+      "start": 1610.04,
+      "end": 1613.04,
+      "text": " Councilor Belliss, you want to say anything about this?",
+      "words": []
+    },
+    {
+      "id": 469,
+      "start": 1613.04,
+      "end": 1614.04,
+      "text": " Just want to move on?",
+      "words": []
+    },
+    {
+      "id": 470,
+      "start": 1614.04,
+      "end": 1618.04,
+      "text": " I will just clarify for folks because I did see some concerns out there about,",
+      "words": []
+    },
+    {
+      "id": 471,
+      "start": 1618.04,
+      "end": 1623.04,
+      "text": " Oh, does this mean they'll be more advertising signs or things like that on downtown buildings?",
+      "words": []
+    },
+    {
+      "id": 472,
+      "start": 1623.04,
+      "end": 1624.04,
+      "text": " This is not that.",
+      "words": []
+    },
+    {
+      "id": 473,
+      "start": 1624.04,
+      "end": 1630.04,
+      "text": " This is actually expanding zoning overlay that exists in the blue dome district and then along",
+      "words": []
+    },
+    {
+      "id": 474,
+      "start": 1630.04,
+      "end": 1634.04,
+      "text": " Route 66 to just incorporate the rest of downtown.",
+      "words": []
+    },
+    {
+      "id": 475,
+      "start": 1634.04,
+      "end": 1638.04,
+      "text": " This is more of things like the cane sign or the sign on the Mayo or some of the funding",
+      "words": []
+    },
+    {
+      "id": 476,
+      "start": 1638.04,
+      "end": 1643.04,
+      "text": " on signs you see in the blue dome district like you started this like 15 years ago and",
+      "words": []
+    },
+    {
+      "id": 477,
+      "start": 1643.04,
+      "end": 1645.04,
+      "text": " just didn't finish and so here we are.",
+      "words": []
+    },
+    {
+      "id": 478,
+      "start": 1645.04,
+      "end": 1647.04,
+      "text": " So this one's for Blake.",
+      "words": []
+    },
+    {
+      "id": 479,
+      "start": 1647.04,
+      "end": 1652.04,
+      "text": " And then see consideration and possible approval of city council initiation and proposed",
+      "words": []
+    },
+    {
+      "id": 480,
+      "start": 1652.04,
+      "end": 1656.04,
+      "text": " and encode amendments to add specific provisions for farmer's markets.",
+      "words": []
+    },
+    {
+      "id": 481,
+      "start": 1656.04,
+      "end": 1658.04,
+      "text": " Let's ask our whole Harper's to want to say anything.",
+      "words": []
+    },
+    {
+      "id": 482,
+      "start": 1658.04,
+      "end": 1666.04,
+      "text": " Yeah, just that this is a zoning code amendment to streamline the process for more farmer's markets",
+      "words": []
+    },
+    {
+      "id": 483,
+      "start": 1666.04,
+      "end": 1669.04,
+      "text": " and smaller communities, smaller neighborhoods.",
+      "words": []
+    },
+    {
+      "id": 484,
+      "start": 1669.04,
+      "end": 1670.04,
+      "text": " All right.",
+      "words": []
+    },
+    {
+      "id": 485,
+      "start": 1670.04,
+      "end": 1671.04,
+      "text": " Do we have any speakers?",
+      "words": []
+    },
+    {
+      "id": 486,
+      "start": 1671.04,
+      "end": 1672.04,
+      "text": " Chris?",
+      "words": []
+    },
+    {
+      "id": 487,
+      "start": 1672.04,
+      "end": 1675.04,
+      "text": " I don't know about Chris, but uh.",
+      "words": []
+    },
+    {
+      "id": 488,
+      "start": 1675.04,
+      "end": 1676.04,
+      "text": " Oh gosh.",
+      "words": []
+    },
+    {
+      "id": 489,
+      "start": 1676.04,
+      "end": 1677.04,
+      "text": " Sorry.",
+      "words": []
+    },
+    {
+      "id": 490,
+      "start": 1677.04,
+      "end": 1681.04,
+      "text": " We have no speakers for A or A through C.",
+      "words": []
+    },
+    {
+      "id": 491,
+      "start": 1681.04,
+      "end": 1682.04,
+      "text": " Sorry.",
+      "words": []
+    },
+    {
+      "id": 492,
+      "start": 1682.04,
+      "end": 1683.04,
+      "text": " That was awesome.",
+      "words": []
+    },
+    {
+      "id": 493,
+      "start": 1683.04,
+      "end": 1686.04,
+      "text": " All right.",
+      "words": []
+    },
+    {
+      "id": 494,
+      "start": 1686.04,
+      "end": 1689.04,
+      "text": " Okay, so we don't have any speakers.",
+      "words": []
+    },
+    {
+      "id": 495,
+      "start": 1689.04,
+      "end": 1691.04,
+      "text": " Thank you, Chris.",
+      "words": []
+    },
+    {
+      "id": 496,
+      "start": 1691.04,
+      "end": 1693.04,
+      "text": " Any council discussion?",
+      "words": []
+    },
+    {
+      "id": 497,
+      "start": 1693.04,
+      "end": 1695.04,
+      "text": " Move to approve items 8B through 8C.",
+      "words": []
+    },
+    {
+      "id": 498,
+      "start": 1695.04,
+      "end": 1696.04,
+      "text": " Second.",
+      "words": []
+    },
+    {
+      "id": 499,
+      "start": 1696.04,
+      "end": 1698.04,
+      "text": " Please call the roll.",
+      "words": []
+    },
+    {
+      "id": 500,
+      "start": 1698.04,
+      "end": 1699.04,
+      "text": " Councillor Bellus.",
+      "words": []
+    },
+    {
+      "id": 501,
+      "start": 1699.04,
+      "end": 1700.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 502,
+      "start": 1700.04,
+      "end": 1701.04,
+      "text": " Councillor Gilbert.",
+      "words": []
+    },
+    {
+      "id": 503,
+      "start": 1701.04,
+      "end": 1702.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 504,
+      "start": 1702.04,
+      "end": 1703.04,
+      "text": " Councillor Bangle.",
+      "words": []
+    },
+    {
+      "id": 505,
+      "start": 1703.04,
+      "end": 1704.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 506,
+      "start": 1704.04,
+      "end": 1705.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 507,
+      "start": 1706.04,
+      "end": 1707.04,
+      "text": " Councillor Harper.",
+      "words": []
+    },
+    {
+      "id": 508,
+      "start": 1707.04,
+      "end": 1708.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 509,
+      "start": 1708.04,
+      "end": 1709.04,
+      "text": " Councillor Archie.",
+      "words": []
+    },
+    {
+      "id": 510,
+      "start": 1709.04,
+      "end": 1710.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 511,
+      "start": 1710.04,
+      "end": 1713.04,
+      "text": " Item 8B through C are approved.",
+      "words": []
+    },
+    {
+      "id": 512,
+      "start": 1713.04,
+      "end": 1715.04,
+      "text": " Councillor Archie Bangle and Bush.",
+      "words": []
+    },
+    {
+      "id": 513,
+      "start": 1715.04,
+      "end": 1717.04,
+      "text": " We're going to recuse on DE and F.",
+      "words": []
+    },
+    {
+      "id": 514,
+      "start": 1717.04,
+      "end": 1723.04,
+      "text": " Which all have to do with travel authorization in the amount of 3,350,",
+      "words": []
+    },
+    {
+      "id": 515,
+      "start": 1723.04,
+      "end": 1729.04,
+      "text": " 15 dollars for each of these three to fly to the one voice Washington DC fly in.",
+      "words": []
+    },
+    {
+      "id": 516,
+      "start": 1729.04,
+      "end": 1731.04,
+      "text": " Do we have any speakers?",
+      "words": []
+    },
+    {
+      "id": 517,
+      "start": 1731.04,
+      "end": 1732.04,
+      "text": " Chris.",
+      "words": []
+    },
+    {
+      "id": 518,
+      "start": 1732.04,
+      "end": 1734.04,
+      "text": " We have three speakers.",
+      "words": []
+    },
+    {
+      "id": 519,
+      "start": 1734.04,
+      "end": 1741.04,
+      "text": " One speaker is Mr. John Hawfines for AD.",
+      "words": []
+    },
+    {
+      "id": 520,
+      "start": 1741.04,
+      "end": 1747.04,
+      "text": " Yeah, AD.",
+      "words": []
+    },
+    {
+      "id": 521,
+      "start": 1747.04,
+      "end": 1749.04,
+      "text": " You're talking about AD correct?",
+      "words": []
+    },
+    {
+      "id": 522,
+      "start": 1749.04,
+      "end": 1750.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 523,
+      "start": 1750.04,
+      "end": 1751.04,
+      "text": " Okay.",
+      "words": []
+    },
+    {
+      "id": 524,
+      "start": 1751.04,
+      "end": 1756.04,
+      "text": " And thinking on Tuesday, March 11th, it's a special day.",
+      "words": []
+    },
+    {
+      "id": 525,
+      "start": 1756.04,
+      "end": 1759.04,
+      "text": " My wife and I have a 40th wedding anniversary.",
+      "words": []
+    },
+    {
+      "id": 526,
+      "start": 1759.04,
+      "end": 1760.04,
+      "text": " So moving on.",
+      "words": []
+    },
+    {
+      "id": 527,
+      "start": 1761.04,
+      "end": 1763.04,
+      "text": " A travel authorization.",
+      "words": []
+    },
+    {
+      "id": 528,
+      "start": 1763.04,
+      "end": 1764.04,
+      "text": " That's probably not real.",
+      "words": []
+    },
+    {
+      "id": 529,
+      "start": 1764.04,
+      "end": 1765.04,
+      "text": " Anyway, excuse me.",
+      "words": []
+    },
+    {
+      "id": 530,
+      "start": 1765.04,
+      "end": 1766.04,
+      "text": " A travel authorization.",
+      "words": []
+    },
+    {
+      "id": 531,
+      "start": 1766.04,
+      "end": 1768.04,
+      "text": " She's a great lady at this.",
+      "words": []
+    },
+    {
+      "id": 532,
+      "start": 1768.04,
+      "end": 1774.04,
+      "text": " A travel authorization per council rules and order of business, per council or archie and the others.",
+      "words": []
+    },
+    {
+      "id": 533,
+      "start": 1774.04,
+      "end": 1782.04,
+      "text": " To travel to Washington DC to attend the one voice Washington DC fly in to be held on May 12th through 14th.",
+      "words": []
+    },
+    {
+      "id": 534,
+      "start": 1782.04,
+      "end": 1788.04,
+      "text": " May we do our best to be pro-Christ to be in tune with the one voice, the voice of the Holy Spirit.",
+      "words": []
+    },
+    {
+      "id": 535,
+      "start": 1788.04,
+      "end": 1792.04,
+      "text": " Thank you, counselors for always doing your best to be.",
+      "words": []
+    },
+    {
+      "id": 536,
+      "start": 1792.04,
+      "end": 1795.04,
+      "text": " Yeah, always doing your best to help Tulsa be her best.",
+      "words": []
+    },
+    {
+      "id": 537,
+      "start": 1795.04,
+      "end": 1796.04,
+      "text": " Thank you.",
+      "words": []
+    },
+    {
+      "id": 538,
+      "start": 1796.04,
+      "end": 1797.04,
+      "text": " Thank you.",
+      "words": []
+    },
+    {
+      "id": 539,
+      "start": 1797.04,
+      "end": 1798.04,
+      "text": " Next speaker, please.",
+      "words": []
+    },
+    {
+      "id": 540,
+      "start": 1798.04,
+      "end": 1801.04,
+      "text": " Next speaker is Mr. James Alexander Jr. for AF.",
+      "words": []
+    },
+    {
+      "id": 541,
+      "start": 1801.04,
+      "end": 1806.04,
+      "text": " How you doing?",
+      "words": []
+    },
+    {
+      "id": 542,
+      "start": 1806.04,
+      "end": 1807.04,
+      "text": " Good evening.",
+      "words": []
+    },
+    {
+      "id": 543,
+      "start": 1807.04,
+      "end": 1808.04,
+      "text": " How's everybody?",
+      "words": []
+    },
+    {
+      "id": 544,
+      "start": 1808.04,
+      "end": 1809.04,
+      "text": " Good.",
+      "words": []
+    },
+    {
+      "id": 545,
+      "start": 1809.04,
+      "end": 1812.04,
+      "text": " On this Washington DC fly in.",
+      "words": []
+    },
+    {
+      "id": 546,
+      "start": 1812.04,
+      "end": 1818.04,
+      "text": " I guess these are Republicans going.",
+      "words": []
+    },
+    {
+      "id": 547,
+      "start": 1818.04,
+      "end": 1821.04,
+      "text": " They don't make any difference.",
+      "words": []
+    },
+    {
+      "id": 548,
+      "start": 1821.04,
+      "end": 1825.04,
+      "text": " The way things are going in the United States is it's time.",
+      "words": []
+    },
+    {
+      "id": 549,
+      "start": 1825.04,
+      "end": 1833.04,
+      "text": " Anybody that is sober thinking would have a problem with the administration that is now in office.",
+      "words": []
+    },
+    {
+      "id": 550,
+      "start": 1833.04,
+      "end": 1840.04,
+      "text": " After watching him last night, I have come to the conclusion that not only the United States is in trouble.",
+      "words": []
+    },
+    {
+      "id": 551,
+      "start": 1840.04,
+      "end": 1844.04,
+      "text": " The whole world is in trouble with this man at the end.",
+      "words": []
+    },
+    {
+      "id": 552,
+      "start": 1844.04,
+      "end": 1853.04,
+      "text": " Now, these lovely people are going to Washington and talk to our congregation leaders.",
+      "words": []
+    },
+    {
+      "id": 553,
+      "start": 1853.04,
+      "end": 1859.04,
+      "text": " Staff and have executive policy makers.",
+      "words": []
+    },
+    {
+      "id": 554,
+      "start": 1859.04,
+      "end": 1869.04,
+      "text": " I hope that they go there and try to convince the Republicans.",
+      "words": []
+    },
+    {
+      "id": 555,
+      "start": 1869.04,
+      "end": 1877.04,
+      "text": " To do better than what they're doing because we are in deep, deep trouble.",
+      "words": []
+    },
+    {
+      "id": 556,
+      "start": 1877.04,
+      "end": 1879.04,
+      "text": " The swamp is growing.",
+      "words": []
+    },
+    {
+      "id": 557,
+      "start": 1879.04,
+      "end": 1882.04,
+      "text": " It's not being drained, it's growing.",
+      "words": []
+    },
+    {
+      "id": 558,
+      "start": 1882.04,
+      "end": 1886.04,
+      "text": " And these young people pay attention to the new.",
+      "words": []
+    },
+    {
+      "id": 559,
+      "start": 1886.04,
+      "end": 1890.04,
+      "text": " Don't listen to anybody saying listen to the news and read.",
+      "words": []
+    },
+    {
+      "id": 560,
+      "start": 1890.04,
+      "end": 1896.04,
+      "text": " Find out what's going on in your world, what you're going to inherit from us.",
+      "words": []
+    },
+    {
+      "id": 561,
+      "start": 1896.04,
+      "end": 1899.04,
+      "text": " And right now it looks very damn.",
+      "words": []
+    },
+    {
+      "id": 562,
+      "start": 1899.04,
+      "end": 1904.04,
+      "text": " So I'm also going as a chamber.",
+      "words": []
+    },
+    {
+      "id": 563,
+      "start": 1904.04,
+      "end": 1905.04,
+      "text": " I love the chamber.",
+      "words": []
+    },
+    {
+      "id": 564,
+      "start": 1905.04,
+      "end": 1907.04,
+      "text": " There's so much for tossing.",
+      "words": []
+    },
+    {
+      "id": 565,
+      "start": 1907.04,
+      "end": 1909.04,
+      "text": " Except not tossing.",
+      "words": []
+    },
+    {
+      "id": 566,
+      "start": 1909.04,
+      "end": 1910.04,
+      "text": " We're in trouble.",
+      "words": []
+    },
+    {
+      "id": 567,
+      "start": 1910.04,
+      "end": 1912.04,
+      "text": " Not tossing.",
+      "words": []
+    },
+    {
+      "id": 568,
+      "start": 1912.04,
+      "end": 1916.04,
+      "text": " And I'm here to clear that up.",
+      "words": []
+    },
+    {
+      "id": 569,
+      "start": 1916.04,
+      "end": 1921.04,
+      "text": " This has been a long role for me since 1993.",
+      "words": []
+    },
+    {
+      "id": 570,
+      "start": 1921.04,
+      "end": 1924.04,
+      "text": " When I came here, I had hair.",
+      "words": []
+    },
+    {
+      "id": 571,
+      "start": 1924.04,
+      "end": 1926.04,
+      "text": " Now, I don't.",
+      "words": []
+    },
+    {
+      "id": 572,
+      "start": 1926.04,
+      "end": 1931.04,
+      "text": " So this has been a long, long fight for me.",
+      "words": []
+    },
+    {
+      "id": 573,
+      "start": 1931.04,
+      "end": 1933.04,
+      "text": " I started this.",
+      "words": []
+    },
+    {
+      "id": 574,
+      "start": 1933.04,
+      "end": 1934.04,
+      "text": " I'm going to end it.",
+      "words": []
+    },
+    {
+      "id": 575,
+      "start": 1934.04,
+      "end": 1936.04,
+      "text": " My wife's going to be right there with me.",
+      "words": []
+    },
+    {
+      "id": 576,
+      "start": 1936.04,
+      "end": 1938.04,
+      "text": " But this is my fight.",
+      "words": []
+    },
+    {
+      "id": 577,
+      "start": 1938.04,
+      "end": 1939.04,
+      "text": " She's here with me.",
+      "words": []
+    },
+    {
+      "id": 578,
+      "start": 1939.04,
+      "end": 1940.04,
+      "text": " In the question.",
+      "words": []
+    },
+    {
+      "id": 579,
+      "start": 1940.04,
+      "end": 1941.04,
+      "text": " In the answer.",
+      "words": []
+    },
+    {
+      "id": 580,
+      "start": 1941.04,
+      "end": 1943.04,
+      "text": " In the comments.",
+      "words": []
+    },
+    {
+      "id": 581,
+      "start": 1943.04,
+      "end": 1944.04,
+      "text": " Thank you, Mr. Alex.",
+      "words": []
+    },
+    {
+      "id": 582,
+      "start": 1944.04,
+      "end": 1945.04,
+      "text": " Thank you.",
+      "words": []
+    },
+    {
+      "id": 583,
+      "start": 1945.04,
+      "end": 1946.04,
+      "text": " Hi, Miss Bernice.",
+      "words": []
+    },
+    {
+      "id": 584,
+      "start": 1946.04,
+      "end": 1947.04,
+      "text": " Yep.",
+      "words": []
+    },
+    {
+      "id": 585,
+      "start": 1947.04,
+      "end": 1949.04,
+      "text": " How are you tonight?",
+      "words": []
+    },
+    {
+      "id": 586,
+      "start": 1949.04,
+      "end": 1951.04,
+      "text": " I said how are you tonight?",
+      "words": []
+    },
+    {
+      "id": 587,
+      "start": 1951.04,
+      "end": 1952.04,
+      "text": " I'm well.",
+      "words": []
+    },
+    {
+      "id": 588,
+      "start": 1952.04,
+      "end": 1953.04,
+      "text": " How about yourself?",
+      "words": []
+    },
+    {
+      "id": 589,
+      "start": 1953.04,
+      "end": 1954.04,
+      "text": " Good.",
+      "words": []
+    },
+    {
+      "id": 590,
+      "start": 1954.04,
+      "end": 1955.04,
+      "text": " Thank you.",
+      "words": []
+    },
+    {
+      "id": 591,
+      "start": 1955.04,
+      "end": 1958.04,
+      "text": " I hope you all are doing well as well.",
+      "words": []
+    },
+    {
+      "id": 592,
+      "start": 1958.04,
+      "end": 1966.04,
+      "text": " I'm going to speak just a little bit on what my husband was talking about.",
+      "words": []
+    },
+    {
+      "id": 593,
+      "start": 1966.04,
+      "end": 1973.04,
+      "text": " I don't know what you all are going to wash them to talk to the people about their",
+      "words": []
+    },
+    {
+      "id": 594,
+      "start": 1973.04,
+      "end": 1978.04,
+      "text": " future meeting with.",
+      "words": []
+    },
+    {
+      "id": 595,
+      "start": 1978.04,
+      "end": 1985.04,
+      "text": " We have problems in Tulsa, and as my husband said all over the United States and soon",
+      "words": []
+    },
+    {
+      "id": 596,
+      "start": 1985.04,
+      "end": 1989.04,
+      "text": " we'll recognize how the rest of the world is affected.",
+      "words": []
+    },
+    {
+      "id": 597,
+      "start": 1989.04,
+      "end": 1996.04,
+      "text": " If the gender continues, there's been laid out before us.",
+      "words": []
+    },
+    {
+      "id": 598,
+      "start": 1996.04,
+      "end": 2002.04,
+      "text": " But we'll bring it home because we have problems in the city.",
+      "words": []
+    },
+    {
+      "id": 599,
+      "start": 2003.04,
+      "end": 2012.04,
+      "text": " Because there are people in leadership and in government that think seemingly think like those people",
+      "words": []
+    },
+    {
+      "id": 600,
+      "start": 2012.04,
+      "end": 2017.04,
+      "text": " that are in charge of our government right now.",
+      "words": []
+    },
+    {
+      "id": 601,
+      "start": 2017.04,
+      "end": 2021.04,
+      "text": " We need to be more considerate of each other.",
+      "words": []
+    },
+    {
+      "id": 602,
+      "start": 2021.04,
+      "end": 2023.04,
+      "text": " Every one of us matters.",
+      "words": []
+    },
+    {
+      "id": 603,
+      "start": 2023.04,
+      "end": 2026.04,
+      "text": " And we need to think about how we treat each other.",
+      "words": []
+    },
+    {
+      "id": 604,
+      "start": 2026.04,
+      "end": 2029.04,
+      "text": " My husband said we've been on this journey a long time.",
+      "words": []
+    },
+    {
+      "id": 605,
+      "start": 2029.04,
+      "end": 2034.04,
+      "text": " We're continuing on it and we're just about complete with the assignment.",
+      "words": []
+    },
+    {
+      "id": 606,
+      "start": 2034.04,
+      "end": 2047.04,
+      "text": " But you know to have a city governing body sit here and neglect a major part of the community.",
+      "words": []
+    },
+    {
+      "id": 607,
+      "start": 2047.04,
+      "end": 2054.04,
+      "text": " And it doesn't seem to bother you all because you're not making any effort to bring forth changes.",
+      "words": []
+    },
+    {
+      "id": 608,
+      "start": 2054.04,
+      "end": 2060.04,
+      "text": " And we're the ones that's been bringing forth the complaints to bring forth the changes that need to be made in the community.",
+      "words": []
+    },
+    {
+      "id": 609,
+      "start": 2060.04,
+      "end": 2063.04,
+      "text": " What I'm saying is relevant.",
+      "words": []
+    },
+    {
+      "id": 610,
+      "start": 2063.04,
+      "end": 2075.04,
+      "text": " Because you all are going up there, I guess, to try to understand a little more about what the leadership is saying out of Washington, D.C.",
+      "words": []
+    },
+    {
+      "id": 611,
+      "start": 2075.04,
+      "end": 2085.04,
+      "text": " But I'm saying that things are changing in Tulsa.",
+      "words": []
+    },
+    {
+      "id": 612,
+      "start": 2085.04,
+      "end": 2087.04,
+      "text": " We're not done.",
+      "words": []
+    },
+    {
+      "id": 613,
+      "start": 2087.04,
+      "end": 2089.04,
+      "text": " We're almost done.",
+      "words": []
+    },
+    {
+      "id": 614,
+      "start": 2089.04,
+      "end": 2095.04,
+      "text": " But it is ridiculous how this counts to body.",
+      "words": []
+    },
+    {
+      "id": 615,
+      "start": 2095.04,
+      "end": 2097.04,
+      "text": " Most of you are new.",
+      "words": []
+    },
+    {
+      "id": 616,
+      "start": 2097.04,
+      "end": 2099.04,
+      "text": " Some of you have been here for a while.",
+      "words": []
+    },
+    {
+      "id": 617,
+      "start": 2099.04,
+      "end": 2104.04,
+      "text": " I don't know how much you know about the previous counselors.",
+      "words": []
+    },
+    {
+      "id": 618,
+      "start": 2104.04,
+      "end": 2108.04,
+      "text": " But we have a lot of problems over there in North Tulsa.",
+      "words": []
+    },
+    {
+      "id": 619,
+      "start": 2108.04,
+      "end": 2113.04,
+      "text": " That this council could help me solve.",
+      "words": []
+    },
+    {
+      "id": 620,
+      "start": 2113.04,
+      "end": 2117.04,
+      "text": " And we have a counselor sitting here.",
+      "words": []
+    },
+    {
+      "id": 621,
+      "start": 2117.04,
+      "end": 2119.04,
+      "text": " I'm just speechless.",
+      "words": []
+    },
+    {
+      "id": 622,
+      "start": 2119.04,
+      "end": 2123.04,
+      "text": " I don't know what she's representing.",
+      "words": []
+    },
+    {
+      "id": 623,
+      "start": 2123.04,
+      "end": 2126.04,
+      "text": " And I don't know what she plans to represent when she comes back.",
+      "words": []
+    },
+    {
+      "id": 624,
+      "start": 2126.04,
+      "end": 2127.04,
+      "text": " She just directs me around.",
+      "words": []
+    },
+    {
+      "id": 625,
+      "start": 2127.04,
+      "end": 2128.04,
+      "text": " You're not the situation.",
+      "words": []
+    },
+    {
+      "id": 626,
+      "start": 2128.04,
+      "end": 2133.04,
+      "text": " But anyway, I want you to know that we're continuing to do the work we've been doing.",
+      "words": []
+    },
+    {
+      "id": 627,
+      "start": 2133.04,
+      "end": 2139.04,
+      "text": " We've been doing and we've accomplished a lot for that area.",
+      "words": []
+    },
+    {
+      "id": 628,
+      "start": 2139.04,
+      "end": 2154.04,
+      "text": " But it's very important to me to just say to you that every person in this city matters, every person.",
+      "words": []
+    },
+    {
+      "id": 629,
+      "start": 2154.04,
+      "end": 2164.04,
+      "text": " And our difference is shouldn't be so different that we can't work together.",
+      "words": []
+    },
+    {
+      "id": 630,
+      "start": 2164.04,
+      "end": 2170.04,
+      "text": " That we can sit up and watch all these homeless people in the streets.",
+      "words": []
+    },
+    {
+      "id": 631,
+      "start": 2170.04,
+      "end": 2172.04,
+      "text": " And act like we don't know what to do about it.",
+      "words": []
+    },
+    {
+      "id": 632,
+      "start": 2172.04,
+      "end": 2176.04,
+      "text": " We still don't watch the things that are occurring in North Tulsa.",
+      "words": []
+    },
+    {
+      "id": 633,
+      "start": 2176.04,
+      "end": 2180.04,
+      "text": " And act like we don't know what to do about it.",
+      "words": []
+    },
+    {
+      "id": 634,
+      "start": 2180.04,
+      "end": 2186.04,
+      "text": " But our neighborhood group has been working diligently since 1991 and 92.",
+      "words": []
+    },
+    {
+      "id": 635,
+      "start": 2186.04,
+      "end": 2190.04,
+      "text": " I'm going to say this and then I'll go sit down.",
+      "words": []
+    },
+    {
+      "id": 636,
+      "start": 2190.04,
+      "end": 2194.04,
+      "text": " We ran a youth center.",
+      "words": []
+    },
+    {
+      "id": 637,
+      "start": 2194.04,
+      "end": 2198.04,
+      "text": " And I learned a lot from the young people ages five to 17,",
+      "words": []
+    },
+    {
+      "id": 638,
+      "start": 2198.04,
+      "end": 2200.04,
+      "text": " and ran for two years.",
+      "words": []
+    },
+    {
+      "id": 639,
+      "start": 2200.04,
+      "end": 2209.04,
+      "text": " I learned a lot about the young people, particularly in the North Tulsa area.",
+      "words": []
+    },
+    {
+      "id": 640,
+      "start": 2209.04,
+      "end": 2216.04,
+      "text": " So not only are you making decisions for now,",
+      "words": []
+    },
+    {
+      "id": 641,
+      "start": 2216.04,
+      "end": 2222.04,
+      "text": " but you making decisions that will affect the community for years to come.",
+      "words": []
+    },
+    {
+      "id": 642,
+      "start": 2222.04,
+      "end": 2229.04,
+      "text": " Probably and hopefully no one else will have to be in a battle with you all.",
+      "words": []
+    },
+    {
+      "id": 643,
+      "start": 2229.04,
+      "end": 2236.04,
+      "text": " To get you to do what your job is for every person.",
+      "words": []
+    },
+    {
+      "id": 644,
+      "start": 2236.04,
+      "end": 2238.04,
+      "text": " Thank you for your time.",
+      "words": []
+    },
+    {
+      "id": 645,
+      "start": 2238.04,
+      "end": 2239.04,
+      "text": " Thank you.",
+      "words": []
+    },
+    {
+      "id": 646,
+      "start": 2239.04,
+      "end": 2242.04,
+      "text": " Do you have any council discussion?",
+      "words": []
+    },
+    {
+      "id": 647,
+      "start": 2242.04,
+      "end": 2244.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 648,
+      "start": 2244.04,
+      "end": 2245.04,
+      "text": " Thank you for your comments.",
+      "words": []
+    },
+    {
+      "id": 649,
+      "start": 2245.04,
+      "end": 2248.04,
+      "text": " Just for anyone who's curious about what the Tulsa Chamber,",
+      "words": []
+    },
+    {
+      "id": 650,
+      "start": 2248.04,
+      "end": 2252.04,
+      "text": " one voice agenda is for the federal government, federal priorities.",
+      "words": []
+    },
+    {
+      "id": 651,
+      "start": 2252.04,
+      "end": 2257.04,
+      "text": " You can go to TulsaChamber.com slash one voice.",
+      "words": []
+    },
+    {
+      "id": 652,
+      "start": 2257.04,
+      "end": 2260.04,
+      "text": " They're listed out there in one voice agenda.",
+      "words": []
+    },
+    {
+      "id": 653,
+      "start": 2260.04,
+      "end": 2261.04,
+      "text": " I'm sorry.",
+      "words": []
+    },
+    {
+      "id": 654,
+      "start": 2261.04,
+      "end": 2264.04,
+      "text": " They're listed out there in pretty great detail.",
+      "words": []
+    },
+    {
+      "id": 655,
+      "start": 2264.04,
+      "end": 2268.04,
+      "text": " And you can read more, but just the big priorities are ensuring a prosperous economy,",
+      "words": []
+    },
+    {
+      "id": 656,
+      "start": 2268.04,
+      "end": 2273.04,
+      "text": " building infrastructure, critical to business, and an educated and healthy workforce.",
+      "words": []
+    },
+    {
+      "id": 657,
+      "start": 2273.04,
+      "end": 2278.04,
+      "text": " And so I'm glad that our three colleagues are taking time out of their busy lives.",
+      "words": []
+    },
+    {
+      "id": 658,
+      "start": 2278.04,
+      "end": 2283.04,
+      "text": " I think almost everyone up here has at least one other job outside of council work.",
+      "words": []
+    },
+    {
+      "id": 659,
+      "start": 2283.04,
+      "end": 2290.04,
+      "text": " And so to go for these three days in early May with a contingent from the city of business leaders",
+      "words": []
+    },
+    {
+      "id": 660,
+      "start": 2290.04,
+      "end": 2296.04,
+      "text": " and other, I think some county representatives and some tribal representatives.",
+      "words": []
+    },
+    {
+      "id": 661,
+      "start": 2296.04,
+      "end": 2302.04,
+      "text": " I think that it will be helpful to help uplift what we are all trying to do for everyone in our areas.",
+      "words": []
+    },
+    {
+      "id": 662,
+      "start": 2302.04,
+      "end": 2309.04,
+      "text": " So I would be happy to move to approve items AD through F.",
+      "words": []
+    },
+    {
+      "id": 663,
+      "start": 2309.04,
+      "end": 2310.04,
+      "text": " Second.",
+      "words": []
+    },
+    {
+      "id": 664,
+      "start": 2310.04,
+      "end": 2311.04,
+      "text": " Please go the roll.",
+      "words": []
+    },
+    {
+      "id": 665,
+      "start": 2311.04,
+      "end": 2312.04,
+      "text": " Council balance.",
+      "words": []
+    },
+    {
+      "id": 666,
+      "start": 2312.04,
+      "end": 2313.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 667,
+      "start": 2313.04,
+      "end": 2314.04,
+      "text": " Councillor Gilbert.",
+      "words": []
+    },
+    {
+      "id": 668,
+      "start": 2314.04,
+      "end": 2315.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 669,
+      "start": 2315.04,
+      "end": 2316.04,
+      "text": " Councillor Debt.",
+      "words": []
+    },
+    {
+      "id": 670,
+      "start": 2316.04,
+      "end": 2317.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 671,
+      "start": 2317.04,
+      "end": 2318.04,
+      "text": " Councillor Laken.",
+      "words": []
+    },
+    {
+      "id": 672,
+      "start": 2318.04,
+      "end": 2319.04,
+      "text": " Yes.",
+      "words": []
+    },
+    {
+      "id": 673,
+      "start": 2320.04,
+      "end": 2323.04,
+      "text": " Items eight D through F are approved.",
+      "words": []
+    },
+    {
+      "id": 674,
+      "start": 2323.04,
+      "end": 2326.04,
+      "text": " Come our friends.",
+      "words": []
+    },
+    {
+      "id": 675,
+      "start": 2326.04,
+      "end": 2327.04,
+      "text": " Nine new business.",
+      "words": []
+    },
+    {
+      "id": 676,
+      "start": 2327.04,
+      "end": 2328.04,
+      "text": " There are no items this week.",
+      "words": []
+    },
+    {
+      "id": 677,
+      "start": 2328.04,
+      "end": 2330.04,
+      "text": " 10 hearing of appeals.",
+      "words": []
+    },
+    {
+      "id": 678,
+      "start": 2330.04,
+      "end": 2331.04,
+      "text": " There are no items this week.",
+      "words": []
+    },
+    {
+      "id": 679,
+      "start": 2331.04,
+      "end": 2333.04,
+      "text": " 11 hearing of public comments.",
+      "words": []
+    },
+    {
+      "id": 680,
+      "start": 2333.04,
+      "end": 2336.04,
+      "text": " This concludes the televised portion of our meeting.",
+      "words": []
+    },
+    {
+      "id": 681,
+      "start": 2336.04,
+      "end": 2337.04,
+      "text": " Per council rules.",
+      "words": []
+    },
+    {
+      "id": 682,
+      "start": 2350.04,
+      "end": 2351.04,
+      "text": " Thank you.",
+      "words": []
+    },
+    {
+      "id": 683,
+      "start": 2351.04,
+      "end": 2353.04,
+      "text": " Thank you.",
+      "words": []
+    }
+  ]
+}

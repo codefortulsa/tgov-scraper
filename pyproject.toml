@@ -22,6 +22,7 @@ pydub = "^0.25.1"
 moviepy = "^2.1.2"
 jupyter = "^1.1.1"
 jupyter-nbextensions-configurator = "^0.6.4"
+faster-whisper = "^1.1.1"
 
 
 [build-system]

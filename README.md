@@ -44,7 +44,16 @@ poetry run pytest -v
 - 'scripts`: one off scripts for downloading, conversions, etc
 - `tests/`: Test files
 - `notebooks/`: Jupyter notebooks for analysis and exploration
-- `data/`: output from notebooks
-  - `audio`: audio output from videos
+- `data/`: output from notebooks 
 
-  pip install assemblyai moviepy
+
+## Running the transcription scripts
+
+### download the mp4
+```
+poetry run python scripts/download_m3u8.py 'https://archive-stream.granicus.com/OnDemand/_definst_/mp4:archive/tulsa-ok/tulsa-ok_843d30f2-b631-4a16-8018-a2a31930be70.mp4/playlist.m3u8' --output data/video/test_granicus_video.mp4
+```
+### transcribe
+```
+poetry run python scripts/video2text.py data/video/test_granicus_video.mp4 --model-size tiny --verbose
+```
