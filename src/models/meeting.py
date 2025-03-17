@@ -3,9 +3,9 @@ Pydantic models for meeting data
 """
 
 from datetime import datetime
-from typing import Optional
+from typing import Optional, Union
 
-from pydantic import BaseModel, Field, HttpUrl
+from pydantic import BaseModel, Field, HttpUrl, validator
 
 
 class Meeting(BaseModel):
@@ -14,14 +14,32 @@ class Meeting(BaseModel):
     """
 
     meeting: str = Field(description="Name of the meeting")
-    date: str = Field(description="Date and time of the meeting")
+    date: str = Field(
+        description="ISO-formatted date and time of the meeting with timezone"
+    )
+    date_display: Optional[str] = Field(
+        None, description="Human-readable date and time format"
+    )
     duration: str = Field(description="Duration of the meeting")
     agenda: Optional[HttpUrl] = Field(None, description="URL to the meeting agenda")
     video: Optional[HttpUrl] = Field(None, description="URL to the meeting video")
 
+    @validator("date_display", pre=True, always=True)
+    def set_date_display(cls, v, values):
+        """Set date_display to a readable format if not provided"""
+        if v is None and "date" in values:
+            # If the date is in ISO format, try to make it more readable
+            try:
+                dt = datetime.fromisoformat(values["date"])
+                return dt.strftime("%B %d, %Y - %I:%M %p")
+            except (ValueError, TypeError):
+                return values["date"]
+        return v
+
     def __str__(self) -> str:
         """String representation of the meeting"""
-        return f"{self.meeting} - {self.date} ({self.duration})"
+        display_date = self.date_display or self.date
+        return f"{self.meeting} - {display_date} ({self.duration})"
 
 
 class GranicusPlayerPage(BaseModel):

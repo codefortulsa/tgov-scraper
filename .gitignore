@@ -5,6 +5,9 @@ data/audio/
 data/video/
 data/transcripts/
 models/
+# Include specific directories
+!src/models/
+
 notebooks/.ipynb_checkpoints/
 
 # Python

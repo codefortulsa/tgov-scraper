@@ -1,0 +1,30 @@
+name: Update Meetings Summary
+
+on:
+  schedule:
+    # Run every day at midnight
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    # Allow manual trigger
+
+jobs:
+  update-summary:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Python environment
+        uses: ./.github/actions/setup-poetry-env
+        with:
+          python-version: '3.11'
+
+      - name: Run summary script
+        run: poetry run python scripts/summary.py
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update meetings summary data"
+          file_pattern: data/meetings.jsonl 

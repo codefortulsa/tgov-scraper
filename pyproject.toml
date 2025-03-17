@@ -26,6 +26,7 @@ faster-whisper = "1.1.0"
 whisperx = {git = "https://github.com/m-bain/whisperx.git", rev = "main", python = ">=3.10,<3.13"}
 python-dotenv = "^1.0.1"
 aiofiles = "^24.1.0"
+pytz = "^2025.1"
 
 
 [tool.poetry.group.dev.dependencies]

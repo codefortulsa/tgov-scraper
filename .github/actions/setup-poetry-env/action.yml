@@ -1,0 +1,35 @@
+name: 'Setup Python with Poetry'
+description: 'Sets up Python environment with Poetry and installs dependencies'
+
+inputs:
+  python-version:
+    description: 'Python version to set up'
+    required: false
+    default: '3.11'
+
+runs:
+  using: "composite"
+  steps:
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ inputs.python-version }}
+
+    - name: Install Poetry
+      uses: abatilo/actions-poetry@v2
+
+    - name: Configure Poetry
+      run: poetry config virtualenvs.create true
+      shell: bash
+
+    - name: Load cached Poetry dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pypoetry/virtualenvs
+        key: poetry-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
+        restore-keys: |
+          poetry-${{ runner.os }}-
+
+    - name: Install dependencies
+      run: poetry install --no-interaction --no-root
+      shell: bash 

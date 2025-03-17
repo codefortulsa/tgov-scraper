@@ -8,15 +8,19 @@ Television websites.
 
 import asyncio
 import json
-from typing import Dict, List, Optional, Any
+import re
+from datetime import datetime
+from typing import Dict, List, Optional, Any, Union
 from urllib.parse import urljoin
 
 import aiohttp
+import pytz
 from selectolax.parser import HTMLParser
 
 from .models.meeting import Meeting
 
 BASE_URL = "https://tulsa-ok.granicus.com/ViewPublisher.php?view_id=4"
+CENTRAL_TZ = pytz.timezone("America/Chicago")
 
 
 async def fetch_page(url: str, session: aiohttp.ClientSession) -> str:
@@ -36,7 +40,95 @@ async def fetch_page(url: str, session: aiohttp.ClientSession) -> str:
         return await response.text()
 
 
-async def parse_meetings(html: str) -> List[Dict[str, str]]:
+def parse_date_string(date_str: str) -> Optional[datetime]:
+    """
+    Parse the date string into a datetime object with Central timezone.
+
+    Args:
+        date_str: The raw date string from HTML
+
+    Returns:
+        A datetime object with Central timezone or None if parsing fails
+    """
+    # Replace non-breaking spaces with regular spaces
+    date_str = date_str.replace("\u00a0", " ")
+
+    # Replace multiple spaces with a single space
+    date_str = re.sub(r"\s+", " ", date_str)
+
+    # Find the month, day, year, and time parts
+    # Pattern typically looks like "March 12, 2025 - 5:00 PM"
+    match = re.search(
+        r"([A-Za-z]+)\s+(\d{1,2}),?\s+(\d{4}).*?(\d{1,2}):(\d{2})\s*([APM]{2})",
+        date_str,
+    )
+
+    if match:
+        month_str, day_str, year_str, hour_str, minute_str, am_pm = match.groups()
+
+        # Convert month name to number
+        try:
+            month_num = datetime.strptime(month_str, "%B").month
+        except ValueError:
+            # Try abbreviated month name
+            try:
+                month_num = datetime.strptime(month_str, "%b").month
+            except ValueError:
+                return None
+
+        # Convert to integers
+        day = int(day_str)
+        year = int(year_str)
+        hour = int(hour_str)
+        minute = int(minute_str)
+
+        # Adjust hour for PM
+        if am_pm.upper() == "PM" and hour < 12:
+            hour += 12
+        elif am_pm.upper() == "AM" and hour == 12:
+            hour = 0
+
+        # Create naive datetime
+        naive_dt = datetime(year, month_num, day, hour, minute)
+
+        # Localize to Central Time
+        return CENTRAL_TZ.localize(naive_dt)
+
+    return None
+
+
+def clean_date_string(date_str: str) -> str:
+    """
+    Clean up the date string by removing extra whitespace, newlines, and normalizing formats.
+
+    Args:
+        date_str: The raw date string from HTML
+
+    Returns:
+        A cleaned date string in the format "Month Day, Year - Time"
+    """
+    # Replace non-breaking spaces with regular spaces
+    date_str = date_str.replace("\u00a0", " ")
+
+    # Replace multiple spaces with a single space
+    date_str = re.sub(r"\s+", " ", date_str)
+
+    # Find the month, day, year, and time parts
+    # Pattern typically looks like "March 12, 2025 - 5:00 PM"
+    match = re.search(
+        r"([A-Za-z]+)\s+(\d{1,2}),?\s+(\d{4}).*?(\d{1,2}:\d{2}\s*[APM]{2})", date_str
+    )
+
+    if match:
+        month, day, year, time = match.groups()
+        # Format consistently
+        return f"{month} {day}, {year} - {time}"
+
+    # If the regex doesn't match, do basic cleanup
+    return date_str.strip()
+
+
+async def parse_meetings(html: str) -> List[Dict[str, Any]]:
     """
     Parse the meeting data from the HTML content.
 
@@ -68,9 +160,17 @@ async def parse_meetings(html: str) -> List[Dict[str, str]]:
             if len(cells) < 5:
                 continue
 
+            # Parse the date string into a datetime object
+            date_text = cells[1].text()
+            date_obj = parse_date_string(date_text)
+
+            # Get a cleaned date string as a fallback
+            date_str = clean_date_string(date_text)
+
             meeting_data = {
                 "meeting": cells[0].text().strip(),
-                "date": cells[1].text().strip(),
+                "date": date_obj.isoformat() if date_obj else date_str,
+                "date_display": date_str,  # Keep a human-readable version
                 "duration": cells[2].text().strip(),
                 "agenda": None,
                 "video": None,
