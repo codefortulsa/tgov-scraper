@@ -42,6 +42,17 @@ class Meeting(BaseModel):
         return f"{self.meeting} - {display_date} ({self.duration})"
 
 
+class MeetingSummary(BaseModel):
+    """Model for meeting summaries"""
+
+    meeting: Meeting = Field(description="Meeting details")
+    summary: str = Field(description="Summary of the meeting")
+    summarization_date: str = Field(description="Date and time of the summarization")
+    needs_summarization: bool = Field(
+        description="Whether the summary needs to be generated"
+    )
+
+
 class GranicusPlayerPage(BaseModel):
     """Model for Granicus video URLs"""
 

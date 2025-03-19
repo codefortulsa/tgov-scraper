@@ -27,4 +27,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Update meetings summary data"
-          file_pattern: data/meetings.jsonl 
+          file_pattern: "data/meetings.jsonl data/summaries.jsonl website/data/meetings.jsonl website/data/summaries.jsonl" 

@@ -55,13 +55,16 @@ async def save_to_jsonl(meetings: List[Dict[str, Any]], file_path: Path) -> None
 
 async def main() -> None:
     """Main function to retrieve and save meeting data."""
+    # Original output path
     output_path = Path("data/meetings.jsonl")
 
     print("Retrieving meetings data...")
     meetings = await generate_summary()
     print(f"Found {len(meetings)} meetings")
 
+    # Save to original location
     await save_to_jsonl(meetings, output_path)
+
     print("Summary generation complete")
 
 

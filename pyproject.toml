@@ -27,12 +27,20 @@ whisperx = {git = "https://github.com/m-bain/whisperx.git", rev = "main", python
 python-dotenv = "^1.0.1"
 aiofiles = "^24.1.0"
 pytz = "^2025.1"
+pymupdf = "^1.25.4"
 
 
 [tool.poetry.group.dev.dependencies]
 jupyter = "^1.1.1"
 ipykernel = "^6.29.5"
+pytest = "^8.3.5"
+pytest-asyncio = "^0.25.3"
+ipdb = "^0.13.13"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+asyncio_mode = "strict"
+asyncio_default_fixture_loop_scope = "function"
