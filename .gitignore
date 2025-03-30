@@ -1,10 +1,11 @@
 # Environment variables
 .env
+.envrc
 
 data/audio/
 data/video/
 data/transcripts/
-models/
+models/*
 notebooks/.ipynb_checkpoints/
 
 # Python
@@ -30,6 +31,7 @@ wheels/
 .pytest_cache/
 .coverage
 htmlcov/
+.python-version
 
 # Poetry
 .venv/
