@@ -3,9 +3,10 @@ DynamoDB service for storing and querying Meeting objects.
 """
 
 import os
+import json
+from pathlib import Path
 from typing import List, Optional, Dict, Any
 from datetime import datetime
-from decimal import Decimal
 
 import boto3
 from botocore.exceptions import ClientError
@@ -22,6 +23,23 @@ class DynamoDBService:
         self.table_name = table_name
         self.dynamodb = boto3.resource("dynamodb")
         self.table = self.dynamodb.Table(table_name)
+        self.schema_path = Path(__file__).parent / "schema.json"
+        self.table_schema = self._load_schema()
+
+    def _load_schema(self) -> Dict[str, Any]:
+        """Load the DynamoDB table schema from JSON file."""
+        try:
+            with open(self.schema_path, "r") as f:
+                schema = json.load(f)
+                if self.table_name != schema.get("TableName"):
+                    schema["TableName"] = self.table_name
+                return schema
+        except FileNotFoundError:
+            print(f"Schema file not found at {self.schema_path}")
+            return {}
+        except json.JSONDecodeError:
+            print(f"Invalid JSON in schema file at {self.schema_path}")
+            return {}
 
     def is_configured(self) -> bool:
         """Check if AWS credentials are configured."""
@@ -34,6 +52,10 @@ class DynamoDBService:
             print("AWS credentials not configured")
             return False
 
+        if not self.table_schema:
+            print("Table schema not loaded")
+            return False
+
         try:
             # Check if table exists
             self.dynamodb.meta.client.describe_table(TableName=self.table_name)
@@ -43,49 +65,7 @@ class DynamoDBService:
             if e.response["Error"]["Code"] == "ResourceNotFoundException":
                 # Create the table
                 try:
-                    table = self.dynamodb.create_table(
-                        TableName=self.table_name,
-                        KeySchema=[
-                            {
-                                "AttributeName": "meeting",
-                                "KeyType": "HASH",
-                            },  # Partition key
-                            {"AttributeName": "date", "KeyType": "RANGE"},  # Sort key
-                        ],
-                        AttributeDefinitions=[
-                            {"AttributeName": "meeting", "AttributeType": "S"},
-                            {"AttributeName": "date", "AttributeType": "S"},
-                            {"AttributeName": "clip_id", "AttributeType": "S"},
-                        ],
-                        ProvisionedThroughput={
-                            "ReadCapacityUnits": 5,
-                            "WriteCapacityUnits": 5,
-                        },
-                        GlobalSecondaryIndexes=[
-                            {
-                                "IndexName": "DateIndex",
-                                "KeySchema": [
-                                    {"AttributeName": "date", "KeyType": "HASH"},
-                                ],
-                                "Projection": {"ProjectionType": "ALL"},
-                                "ProvisionedThroughput": {
-                                    "ReadCapacityUnits": 5,
-                                    "WriteCapacityUnits": 5,
-                                },
-                            },
-                            {
-                                "IndexName": "ClipIdIndex",
-                                "KeySchema": [
-                                    {"AttributeName": "clip_id", "KeyType": "HASH"},
-                                ],
-                                "Projection": {"ProjectionType": "ALL"},
-                                "ProvisionedThroughput": {
-                                    "ReadCapacityUnits": 5,
-                                    "WriteCapacityUnits": 5,
-                                },
-                            },
-                        ],
-                    )
+                    table = self.dynamodb.create_table(**self.table_schema)
                     # Wait for the table to be created
                     table.meta.client.get_waiter("table_exists").wait(
                         TableName=self.table_name
@@ -99,30 +79,6 @@ class DynamoDBService:
                 print(f"Error checking table existence: {e}")
                 return False
 
-    @staticmethod
-    def _convert_decimal_to_float(obj: Dict[str, Any]) -> Dict[str, Any]:
-        """Convert Decimal values to float in a dictionary."""
-        for key, value in obj.items():
-            if isinstance(value, Decimal):
-                obj[key] = float(value)
-            elif isinstance(value, dict):
-                obj[key] = DynamoDBService._convert_decimal_to_float(value)
-        return obj
-
-    @staticmethod
-    def _prepare_item_for_dynamodb(meeting: Meeting) -> Dict[str, Any]:
-        """Convert Meeting object to DynamoDB item format."""
-        # Convert to dict and ensure all fields have proper types for DynamoDB
-        item = meeting.model_dump()
-
-        # Convert any URL objects to strings
-        if item.get("agenda"):
-            item["agenda"] = str(item["agenda"])
-        if item.get("video"):
-            item["video"] = str(item["video"])
-
-        return item
-
     async def put_meeting(self, meeting: Meeting) -> bool:
         """Insert or update a Meeting in DynamoDB."""
         if not self.is_configured():
@@ -130,9 +86,9 @@ class DynamoDBService:
             return False
 
         try:
-            item = self._prepare_item_for_dynamodb(meeting)
+            item = meeting.model_dump()
             self.table.put_item(Item=item)
-            print(f"Meeting '{meeting.meeting}' on {meeting.date} saved to DynamoDB")
+            print(f"Meeting '{meeting.name}' on {meeting.date} saved to DynamoDB")
             return True
         except ClientError as e:
             print(f"Error putting meeting: {e}")
@@ -148,7 +104,6 @@ class DynamoDBService:
             response = self.table.get_item(Key={"meeting": meeting_name, "date": date})
 
             if "Item" in response:
-                item = self._convert_decimal_to_float(response["Item"])
                 return Meeting.model_validate(item)
             else:
                 print(f"No meeting found with name '{meeting_name}' and date '{date}'")
@@ -172,7 +127,6 @@ class DynamoDBService:
 
             meetings = []
             for item in response.get("Items", []):
-                item = self._convert_decimal_to_float(item)
                 meetings.append(Meeting.model_validate(item))
 
             return meetings
@@ -213,7 +167,6 @@ class DynamoDBService:
 
             meetings = []
             for item in response.get("Items", []):
-                item = self._convert_decimal_to_float(item)
                 meetings.append(Meeting.model_validate(item))
 
             # Handle pagination if needed
@@ -222,7 +175,6 @@ class DynamoDBService:
                     ExclusiveStartKey=response["LastEvaluatedKey"]
                 )
                 for item in response.get("Items", []):
-                    item = self._convert_decimal_to_float(item)
                     meetings.append(Meeting.model_validate(item))
 
             return meetings
@@ -272,14 +224,12 @@ class DynamoDBService:
             print(f"Error updating meeting: {e}")
             return False
 
-    async def update_meeting_from_model(
-        self, meeting_name: str, date: str, meeting: Meeting
-    ) -> bool:
+    async def update(self, meeting_name: str, date: str, meeting: Meeting) -> bool:
         """Update a meeting using a Meeting model."""
         # Convert the model to a dict and remove None values
         update_data = {
             k: v
-            for k, v in self._prepare_item_for_dynamodb(meeting).items()
+            for k, v in meeting.model_dump().items()
             if v is not None and k not in ["meeting", "date"]
         }
 
@@ -332,49 +282,3 @@ class DynamoDBService:
         except ClientError as e:
             print(f"Error querying meetings by clip_id: {e}")
             return []
-
-    def add_clip_id_index(self) -> bool:
-        """Add ClipIdIndex to an existing DynamoDB table."""
-        if not self.is_configured():
-            print("AWS credentials not configured")
-            return False
-
-        try:
-            # Update the table to add the new GSI
-            client = boto3.client("dynamodb")
-            response = client.update_table(
-                TableName=self.table_name,
-                AttributeDefinitions=[
-                    {"AttributeName": "clip_id", "AttributeType": "S"}
-                ],
-                GlobalSecondaryIndexUpdates=[
-                    {
-                        "Create": {
-                            "IndexName": "ClipIdIndex",
-                            "KeySchema": [
-                                {"AttributeName": "clip_id", "KeyType": "HASH"}
-                            ],
-                            "Projection": {"ProjectionType": "ALL"},
-                            "ProvisionedThroughput": {
-                                "ReadCapacityUnits": 5,
-                                "WriteCapacityUnits": 5,
-                            },
-                        }
-                    }
-                ],
-            )
-            print(f"Adding ClipIdIndex to table '{self.table_name}'")
-            print(f"Status: {response['TableDescription']['TableStatus']}")
-            return True
-        except ClientError as e:
-            if "ResourceInUseException" in str(e):
-                print(f"Table '{self.table_name}' is currently being modified")
-                return False
-            elif "ValidationException" in str(e) and "already exists" in str(e):
-                print(
-                    f"Index 'ClipIdIndex' already exists on table '{self.table_name}'"
-                )
-                return True
-            else:
-                print(f"Error adding index: {e}")
-                return False

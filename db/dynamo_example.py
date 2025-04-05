@@ -27,12 +27,6 @@ async def main():
     # Initialize DynamoDB service
     dynamo_service = DynamoDBService(table_name="ExampleMeetings")
 
-    # Create table if it doesn't exist
-    table_exists = dynamo_service.create_table_if_not_exists()
-    if not table_exists:
-        print("Failed to create or verify DynamoDB table. Exiting.")
-        return
-
     # Example meeting data
     meetings = [
         Meeting(

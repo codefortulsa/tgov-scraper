@@ -1,0 +1,65 @@
+{
+    "TableName": "TGOV-Meetings",
+    "KeySchema": [
+        {
+            "AttributeName": "name",
+            "KeyType": "HASH"
+        },
+        {
+            "AttributeName": "date",
+            "KeyType": "RANGE"
+        }
+    ],
+    "AttributeDefinitions": [
+        {
+            "AttributeName": "name",
+            "AttributeType": "S"
+        },
+        {
+            "AttributeName": "date",
+            "AttributeType": "S"
+        },
+        {
+            "AttributeName": "clip_id",
+            "AttributeType": "S"
+        }
+    ],
+    "ProvisionedThroughput": {
+        "ReadCapacityUnits": 5,
+        "WriteCapacityUnits": 5
+    },
+    "GlobalSecondaryIndexes": [
+        {
+            "IndexName": "DateIndex",
+            "KeySchema": [
+                {
+                    "AttributeName": "date",
+                    "KeyType": "HASH"
+                }
+            ],
+            "Projection": {
+                "ProjectionType": "ALL"
+            },
+            "ProvisionedThroughput": {
+                "ReadCapacityUnits": 5,
+                "WriteCapacityUnits": 5
+            }
+        },
+        {
+            "IndexName": "ClipIdIndex",
+            "KeySchema": [
+                {
+                    "AttributeName": "clip_id",
+                    "KeyType": "HASH"
+                }
+            ],
+            "Projection": {
+                "ProjectionType": "ALL"
+            },
+            "ProvisionedThroughput": {
+                "ReadCapacityUnits": 5,
+                "WriteCapacityUnits": 5
+            }
+        }
+    ]
+}
