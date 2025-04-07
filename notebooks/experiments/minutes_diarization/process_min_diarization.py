@@ -162,8 +162,7 @@ def main():
     print(f"Minutes text length: {len(encoding.encode(minutes_text))}")
 
     # Use ChatGPT to match speakers
-    # speaker_matches = match_speakers_with_chatgpt(minutes_text, simple_diarization)
-    speaker_matches = match_speakers_with_gemini(minutes_text, simple_diarization)
+    speaker_matches = match_speakers_with_chatgpt(minutes_text, simple_diarization)
     print(speaker_matches)
 
 
