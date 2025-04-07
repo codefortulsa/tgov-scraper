@@ -87,6 +87,31 @@ Looks slightly better than 4o-mini.
         SPEAKER_19: "Phil Lakin Jr.",
     }
 
+### Gemini
+
+    {
+        "UNKNOWN": "Unknown",
+        "SPEAKER_00": "James Alexander, Jr.",
+        "SPEAKER_01": "Daniel Regan with the Tulsa Airports Improvement Trust",
+        "SPEAKER_02": "Bernice Alexander",
+        "SPEAKER_03": "Unknown",
+        "SPEAKER_04": "Erran Persley, City of Tulsa Economic Development Director",
+        "SPEAKER_05": "Councilor Archie",
+        "SPEAKER_06": "Councilor Gilbert"
+        "SPEAKER_07": "Councilor Bush",
+        "SPEAKER_08": "Lori Doring, Secretary to the Council",
+        "SPEAKER_09": "Unknown",
+        "SPEAKER_10": "Councilor Bellis",
+        "SPEAKER_11": "Kathryn Aung, Council Staff",
+        "SPEAKER_13": "Evan Taylor",
+        "SPEAKER_14": "Stuart McDaniel",
+        "SPEAKER_15": "Unknown",
+        "SPEAKER_16": "Jeff Sabin, Development Counsel with the Center for Economic Development Law",
+        "SPEAKER_17": "Jack Blair, City Attorney",
+        "SPEAKER_18": "John Huffines",
+        "SPEAKER_19": "Chair Lakin",
+    }
+
 ## With simplified diarization and no minutes
 
 ### 4o mini

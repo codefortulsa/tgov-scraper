@@ -1,6 +1,9 @@
+import os
 from pathlib import Path
 from langchain_community.document_loaders import PyPDFLoader
 from openai import OpenAI
+from google import genai
+from google.genai import types
 import json
 
 import tiktoken
@@ -69,6 +72,40 @@ def simplify_diarization(transcript_data):
     return "\n".join(speaker_lines)
 
 
+def match_speakers_with_gemini(minutes_text, diarization):
+    """Use Gemini to match speakers from diarization with names from minutes."""
+    GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+    client = genai.Client(api_key=GOOGLE_API_KEY)
+
+    instruction = f"""I have a city council meeting minutes document and a diarization of the audio recording.
+The diarization has identified different speakers but doesn't know their names.
+Please analyze the minutes text and match the speakers from the diarization with the names mentioned in the minutes.
+
+Minutes text:
+{minutes_text}
+
+Diarization segments:
+{diarization}
+
+For each speaker in the diarization, please identify who they are based on the minutes text.
+If you can't determine who they are, mark them as "Unknown".
+Format your response as a JSON object where the keys are the speaker numbers (e.g., "SPEAKER_00")
+and the values are the identified names or "Unknown".
+"""
+    # Start a chat with automatic function calling enabled.
+    chat = client.chats.create(
+        model="gemini-2.0-flash",
+        config=types.GenerateContentConfig(
+            system_instruction=instruction,
+        ),
+    )
+    resp = chat.send_message("Show me all the market entities")
+
+    result = resp.candidates[0].content.parts[0].text
+    print(f"result: {result}")
+    return result
+
+
 def match_speakers_with_chatgpt(minutes_text, diarization):
     """Use ChatGPT to match speakers from diarization with names from minutes."""
     # Format diarization data for the prompt
@@ -125,7 +162,8 @@ def main():
     print(f"Minutes text length: {len(encoding.encode(minutes_text))}")
 
     # Use ChatGPT to match speakers
-    speaker_matches = match_speakers_with_chatgpt(minutes_text, simple_diarization)
+    # speaker_matches = match_speakers_with_chatgpt(minutes_text, simple_diarization)
+    speaker_matches = match_speakers_with_gemini(minutes_text, simple_diarization)
     print(speaker_matches)
 
 
