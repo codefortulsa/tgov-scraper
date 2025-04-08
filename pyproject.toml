@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "tgov scraper"
+name = "tgov-scraper"
 version = "0.1.0"
 description = "A set of scripts and notebooks for exploring Tulsa Government Access Television"
 authors = [
@@ -7,6 +7,7 @@ authors = [
     "groovecoder <luke@groovecoder.com>",
 ]
 readme = "README.md"
+packages = [{include = "src"}, {include = "db"}]
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.13"
