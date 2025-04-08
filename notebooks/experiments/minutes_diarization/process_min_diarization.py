@@ -39,7 +39,7 @@ def simplify_diarization(transcript_data):
         secs = int(seconds % 60)
         return f"{hours:02d}:{minutes:02d}:{secs:02d}"
 
-    # Create formatted HTML output
+    # Copied from John's transcription creator to simplify the diarization. Can probably turn this into a function or use the VTT instead.
     speaker_lines = ["Meeting Script - Combined by Speaker"]
 
     current_speaker = None
@@ -99,7 +99,7 @@ and the values are the identified names or "Unknown".
             system_instruction=instruction,
         ),
     )
-    resp = chat.send_message("Show me all the market entities")
+    resp = chat.send_message("Show me speaker identification")
 
     result = resp.candidates[0].content.parts[0].text
     print(f"result: {result}")

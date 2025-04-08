@@ -21,11 +21,11 @@ def download_minutes_pdfs():
         # Parse the HTML using selectolax
         tree = HTMLParser(response.content)
 
-        # Find all rows that contain filename divs
+        # Find all divs with class row
         rows = tree.css("div.row")
 
         for row in rows:
-            # Find the filename div in this row
+            # Find divs with class fileName
             filename_div = row.css_first("div.fileName")
             if not filename_div:
                 continue
