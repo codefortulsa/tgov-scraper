@@ -9,8 +9,9 @@ import os
 from pathlib import Path
 import pytest
 from unittest.mock import patch, MagicMock, AsyncMock
-
+from typing import List
 import sys
+from datetime import datetime
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -99,33 +100,39 @@ async def test_parse_meetings(sample_html):
 
     assert len(meetings) == 2
 
-    assert meetings[0]["meeting"] == "Regular Council Meeting"
-    assert meetings[0]["date"] == "April 2, 2025"
-    assert meetings[0]["duration"] == "1:29"
-    assert "AgendaViewer.php?view_id=4&clip_id=6515" in meetings[0]["agenda"]
-    assert "MediaPlayer.php?view_id=4&clip_id=6515" in meetings[0]["video"]
+    mtg_one = meetings[0]
 
-    assert meetings[1]["meeting"] == "Animal Welfare Commission"
-    assert meetings[1]["date"] == "March 10, 2025"
-    assert meetings[1]["duration"] == "0:38"
-    assert meetings[1]["agenda"] is None
-    assert "MediaPlayer.php?view_id=4&clip_id=6474" in meetings[1]["video"]
+    assert mtg_one.meeting == "Regular Council Meeting"
+    assert mtg_one.date == datetime(2025, 4, 2, 17, 3)
+    assert mtg_one.duration == "1:29"
+    assert "AgendaViewer.php?view_id=4&clip_id=6515" in mtg_one.agenda.encoded_string()
+    assert "MediaPlayer.php?view_id=4&clip_id=6515" in mtg_one.video.encoded_string()
+
+    mtg_two = meetings[1]
+
+    assert mtg_two.meeting == "Animal Welfare Commission"
+    assert mtg_two.date == datetime(2025, 3, 10, 18, 0)
+    assert mtg_two.duration == "0:38"
+    assert mtg_two.agenda is None
+    assert "MediaPlayer.php?view_id=4&clip_id=6474" in mtg_two.video.encoded_string()
 
 
 @pytest.mark.asyncio
 async def test_parse_real_html(real_html):
     """Test that meetings are correctly parsed from real HTML"""
-    meetings = await parse_meetings(real_html)
+    meetings: List[Meeting] = await parse_meetings(real_html)
 
     # Basic validation
     assert isinstance(meetings, list)
     assert len(meetings) > 0
 
     # Check that each meeting has the expected fields
+    # this is now overkill since pydantic handles this
     for meeting in meetings:
-        assert "meeting" in meeting
-        assert "date" in meeting
-        assert "duration" in meeting
+        assert isinstance(meeting, Meeting)
+        assert hasattr(meeting, "meeting")
+        assert hasattr(meeting, "date")
+        assert hasattr(meeting, "duration")
         # Agenda and video may be None for some meetings
 
 
