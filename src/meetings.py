@@ -18,10 +18,13 @@ from src.aws import is_aws_configured
 from src.local_store import read_meetings, write_meetings
 
 from .models.meeting import Meeting
+from datetime import datetime
+import dateparser
 
 BASE_URL = "https://tulsa-ok.granicus.com/ViewPublisher.php?view_id=4"
 TGOV_BUCKET_NAME = "tgov-meetings"
 MEETINGS_REGISTRY_PATH = "data/meetings.jsonl"
+
 
 async def fetch_page(url: str, session: aiohttp.ClientSession) -> str:
     """
@@ -39,19 +42,8 @@ async def fetch_page(url: str, session: aiohttp.ClientSession) -> str:
             raise Exception(f"Failed to fetch {url}, status code: {response.status}")
         return await response.text()
 
-def clean_date(date: str) -> str:
-    return re.sub(r"\s+", " ", date).strip()
 
-async def parse_meetings(html: str) -> List[Dict[str, str]]:
-    """
-    Parse the meeting data from the HTML content.
-
-    Args:
-        html: The HTML content of the page
-
-    Returns:
-        A list of dictionaries containing meeting data
-    """
+async def parse_meetings(html: str) -> List[Meeting]:
     parser = HTMLParser(html)
 
     # Find all tables with meeting data
@@ -67,14 +59,19 @@ async def parse_meetings(html: str) -> List[Dict[str, str]]:
             name_cells = row.css('td.listItem[headers^="Name"]')
             meeting_name = name_cells[0].text().strip() if name_cells else "Unknown"
 
-            date_cells = row.css('td.listItem[headers^="Date"]')
-            raw_date = clean_date(date_cells[0].text().strip()) if date_cells else "Unknown"
-            meeting_date = raw_date.split("-")[0].strip() if "-" in raw_date else raw_date
+            date_cell = row.css_first('td.listItem[headers^="Date"]')
+            meeting_date = dateparser.parse(date_cell.text())
 
             duration_cells = row.css('td.listItem[headers^="Duration"]')
-            duration_str = duration_cells[0].text().strip() if duration_cells else "Unknown"
+            duration_str = (
+                duration_cells[0].text().strip() if duration_cells else "Unknown"
+            )
             minutes = duration_to_minutes(duration_str)
-            meeting_duration = f"{minutes // 60}:{minutes % 60:02d}" if minutes is not None else "Unknown"
+            meeting_duration = (
+                f"{minutes // 60}:{minutes % 60:02d}"
+                if minutes is not None
+                else "Unknown"
+            )
 
             meeting_data = {
                 "meeting": meeting_name,
@@ -100,7 +97,9 @@ async def parse_meetings(html: str) -> List[Dict[str, str]]:
                 video_link = video_cell.css_first("a")
 
                 onclick = video_link.attributes.get("onclick", "")
-                onclick_match = re.search(r"window\.open\(['\"](//[^'\"]+)['\"]", onclick)
+                onclick_match = re.search(
+                    r"window\.open\(['\"](//[^'\"]+)['\"]", onclick
+                )
                 clip_id_exp = r"clip_id=(\d+)"
 
                 if onclick_match:
@@ -117,13 +116,16 @@ async def parse_meetings(html: str) -> List[Dict[str, str]]:
                         if clip_id_match:
                             clip_id = clip_id_match.group(1)
                             meeting_data["clip_id"] = clip_id
-                            meeting_data["video"] = f"https://tulsa-ok.granicus.com/MediaPlayer.php?view_id=4&clip_id={clip_id}"
+                            meeting_data["video"] = (
+                                f"https://tulsa-ok.granicus.com/MediaPlayer.php?view_id=4&clip_id={clip_id}"
+                            )
                         else:
                             meeting_data["video"] = urljoin(BASE_URL, href)
 
-            meetings.append(meeting_data)
+            meetings.append(Meeting(**meeting_data))
 
     return meetings
+
 
 async def get_tgov_meetings() -> Sequence[Meeting]:
     """
@@ -134,11 +136,9 @@ async def get_tgov_meetings() -> Sequence[Meeting]:
     """
     async with aiohttp.ClientSession() as session:
         html = await fetch_page(BASE_URL, session)
-        meeting_dicts = await parse_meetings(html)
-
-        # Convert dictionaries to Meeting objects
-        meetings = [Meeting(**meeting_dict) for meeting_dict in meeting_dicts]
+        meetings = await parse_meetings(html)
         return meetings
+
 
 def duration_to_minutes(duration):
     if not duration or pd.isna(duration):
@@ -149,40 +149,42 @@ def duration_to_minutes(duration):
         hours = 0
         minutes = 0
 
-        if 'h' in duration:
-            hours_part = duration.split('h')[0].strip()
+        if "h" in duration:
+            hours_part = duration.split("h")[0].strip()
             hours = int(hours_part)
 
-        if 'm' in duration:
-            if 'h' in duration:
-                minutes_part = duration.split('h')[1].split('m')[0].strip()
+        if "m" in duration:
+            if "h" in duration:
+                minutes_part = duration.split("h")[1].split("m")[0].strip()
             else:
-                minutes_part = duration.split('m')[0].strip()
+                minutes_part = duration.split("m")[0].strip()
             minutes = int(minutes_part)
 
         return hours * 60 + minutes
     except:
         return None
 
+
 def get_registry_meetings() -> Sequence[Meeting]:
     if is_aws_configured():
-        print(f'Getting registry from DynamoDB.')
+        print(f"Getting registry from DynamoDB.")
         return list(Meeting.scan())
     else:
-        print(f'Getting registry from local store')
+        print(f"Getting registry from local store")
         return read_meetings()
+
 
 def write_registry_meetings(meetings: Sequence[Meeting]) -> Sequence[Meeting]:
     if is_aws_configured():
-        print(f'Writing registry to DynamoDB.')
+        print(f"Writing registry to DynamoDB.")
         with Meeting.batch_writer():
             for meeting in meetings:
                 if meeting.clip_id:
                     meeting.save()
                 else:
-                    print(f'Skipping meeting with missing clip_id: {meeting}')
+                    print(f"Skipping meeting with missing clip_id: {meeting}")
     else:
-        print(f'Writing registry to local store')
+        print(f"Writing registry to local store")
         write_meetings(meetings)
 
     return meetings

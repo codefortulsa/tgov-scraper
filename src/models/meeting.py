@@ -6,6 +6,7 @@ from typing import Optional
 
 from dyntastic import Dyntastic
 from pydantic import BaseModel, Field, HttpUrl
+from datetime import datetime
 
 
 class Meeting(Dyntastic):
@@ -18,7 +19,7 @@ class Meeting(Dyntastic):
 
     clip_id: Optional[str] = Field(None, description="Granicus clip ID")
     meeting: str = Field(description="Name of the meeting")
-    date: str = Field(description="Date and time of the meeting")
+    date: datetime = Field(description="Date and time of the meeting")
     duration: str = Field(description="Duration of the meeting")
     agenda: Optional[HttpUrl] = Field(None, description="URL to the meeting agenda")
     video: Optional[HttpUrl] = Field(None, description="URL to the meeting video")
