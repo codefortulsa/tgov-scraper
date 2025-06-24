@@ -26,7 +26,7 @@ class Meeting(Dyntastic):
     duration: str = Field(description="Duration of the meeting")
     agenda: Optional[HttpUrl] = Field(None, description="URL to the meeting agenda")
     video: Optional[HttpUrl] = Field(None, description="URL to the meeting video")
-    transcripts: Optional[List[HttpUrl]] = Field(
+    transcripts: Optional[List[str]] = Field(
         None, description="URLs to the meeting transcripts"
     )
     subtitles: Optional[List[HttpUrl]] = Field(

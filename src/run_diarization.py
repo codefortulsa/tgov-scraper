@@ -1,5 +1,6 @@
 import asyncio
 import os
+import json
 
 from pathlib import Path
 
@@ -45,8 +46,10 @@ def run_diarization(video_file: Path, meeting: Meeting):
         transcribe_video_with_diarization(video_file, transcription_dir)
     )
     # Add transcript to S3
+    # Convert dictionary to JSON string before saving
+    transcription_json = json.dumps(transcription, indent=2, ensure_ascii=False)
     save_content_to_s3(
-        transcription,
+        transcription_json,
         BUCKET_NAME,
         f"{FOLDER_NAME}/{video_file.name}.json",
         "application/json",
