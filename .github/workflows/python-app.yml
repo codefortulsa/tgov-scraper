@@ -43,7 +43,7 @@ jobs:
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        role-to-assume: arn:aws:iam::480103772849:role/GitHubCFTRole
+        role-to-assume: arn:aws:iam::480103772849:role/GithubCFTRole
         aws-region: us-east-2
 
     - name: Run Diarization
