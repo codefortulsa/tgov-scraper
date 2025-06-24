@@ -46,4 +46,4 @@ jobs:
 
     - name: Run Diarization
       run: |
-        /opt/poetry-venv/bin/python -m flows.translate_meetings
+        /opt/poetry-venv/bin/python -m flows.transcribe_meetings
