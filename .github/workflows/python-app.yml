@@ -2,7 +2,7 @@ name: Build/run tgov
 
 on:
   push:
-    branches: [ "main", "deploy-lambda", "test-flows" ]
+    branches: [ "main", "diarize-flow" ]
   pull_request:
     branches: [ "main" ]
 
