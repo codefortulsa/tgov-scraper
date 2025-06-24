@@ -27,6 +27,13 @@ def download_video_and_put_in_s3(meeting: Meeting):
 
 @task
 def diarize_meeting(meeting: Meeting):
+    if BUCKET_NAME is None:
+        raise ValueError("S3_BUCKET environment variable is not set")
+
+    if meeting.s3_path is None:
+        print(f"Meeting {meeting.meeting} has no s3_path, skipping")
+        return
+
     video_file = get_video_from_s3(BUCKET_NAME, meeting.s3_path)
     if video_file:
         run_diarization(video_file, meeting)

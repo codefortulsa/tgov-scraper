@@ -16,6 +16,8 @@ jobs:
     env:
       POETRY_VERSION: "1.3.2"
       POETRY_VENV: "/opt/poetry-venv"
+      S3_BUCKET: ${{ secrets.S3_BUCKET }}
+      AWS_DEFAULT_REGION: us-east-2
 
     steps:
     - uses: actions/checkout@v4
