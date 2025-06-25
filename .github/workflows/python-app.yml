@@ -45,7 +45,7 @@ jobs:
       with:
         role-to-assume: arn:aws:iam::480103772849:role/GithubCFTRole
         aws-region: us-east-2
-        aud: http://sts.amazonaws.com/
+        audience: sts.amazonaws.com
 
     - name: Run Diarization
       run: |
