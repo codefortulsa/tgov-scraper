@@ -10,7 +10,7 @@ from src.meetings import (
 from src.models.meeting import Meeting
 
 
-@task
+# @task
 def register_meetings() -> List[Meeting]:
     # TODO: accept max_limit parameter
     tgov_meetings = asyncio.run(get_tgov_meetings())

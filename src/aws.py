@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 
 import boto3
 from botocore.exceptions import ClientError, NoCredentialsError, PartialCredentialsError
@@ -52,3 +53,21 @@ def save_content_to_s3(content, bucket_name, s3_key, content_type):
     region = s3_client.meta.region_name
     url = f"https://{bucket_name}.s3.{region}.amazonaws.com/{s3_key}"
     return HttpUrl(url)
+
+
+def get_video_from_s3(bucket_name, s3_path):
+    try:
+        # Create output directory if it doesn't exist
+        output_dir = Path("data/video")
+        output_dir.mkdir(parents=True, exist_ok=True)
+
+        # Define output path
+        output_path = output_dir / Path(s3_path).name
+
+        # Download file from S3
+        s3_client.download_file(bucket_name, s3_path, str(output_path))
+        print(f"Downloaded {s3_path} from S3 to {output_path}")
+        return output_path
+    except ClientError as e:
+        print(f"Failed to get video from S3: {str(e)}")
+        return None

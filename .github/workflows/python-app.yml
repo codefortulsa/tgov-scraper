@@ -2,12 +2,13 @@ name: Build/run tgov
 
 on:
   push:
-    branches: [ "main", "deploy-lambda", "test-flows" ]
+    branches: [ "main", "diarize-flow" ]
   pull_request:
     branches: [ "main" ]
 
 permissions:
-  contents: read
+    id-token: write
+    contents: read
 
 jobs:
   build:
@@ -16,13 +17,15 @@ jobs:
     env:
       POETRY_VERSION: "1.3.2"
       POETRY_VENV: "/opt/poetry-venv"
-
+      S3_BUCKET: ${{ secrets.S3_BUCKET }}
+      AWS_DEFAULT_REGION: us-east-2
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python 3.11
       uses: actions/setup-python@v3
       with:
         python-version: "3.11"
+
     - name: Install dependencies
       run: |
         set -ex
@@ -36,14 +39,14 @@ jobs:
         /opt/poetry-venv/bin/poetry config virtualenvs.create false
         /opt/poetry-venv/bin/poetry install
         /opt/poetry-venv/bin/poetry env info
+
     - name: Configure AWS credentials
-      uses: aws-actions/configure-aws-credentials@v1
+      uses: aws-actions/configure-aws-credentials@e3dd6a429d7300a6a4c196c26e071d42e0343502
       with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-session-token: ${{ secrets.AWS_SESSION_TOKEN }}
+        role-to-assume: arn:aws:iam::480103772849:role/GithubCFTRole
         aws-region: us-east-2
+        audience: sts.amazonaws.com
 
     - name: Run Diarization
       run: |
-        /opt/poetry-venv/bin/python -m flows.translate_meetings
+        /opt/poetry-venv/bin/python -m flows.transcribe_meetings

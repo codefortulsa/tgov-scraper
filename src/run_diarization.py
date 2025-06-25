@@ -1,10 +1,11 @@
 import asyncio
 import os
+import json
 
 from pathlib import Path
 
 from src.aws import save_content_to_s3
-from src.models.meeting import GranicusPlayerPage
+from src.models.meeting import GranicusPlayerPage, Meeting
 from src.granicus import get_video_player
 from src.videos import download_file, transcribe_video_with_diarization
 
@@ -38,19 +39,24 @@ def download_video(file_name: str, video_url: str):
     return video_file
 
 
-def run_diarization(video_file: Path):
+def run_diarization(video_file: Path, meeting: Meeting):
     transcription_dir = Path("data/transcripts")
 
     transcription = asyncio.run(
         transcribe_video_with_diarization(video_file, transcription_dir)
     )
     # Add transcript to S3
+    # Convert dictionary to JSON string before saving
+    transcription_json = json.dumps(transcription, indent=2, ensure_ascii=False)
     save_content_to_s3(
-        transcription,
+        transcription_json,
         BUCKET_NAME,
         f"{FOLDER_NAME}/{video_file.name}.json",
         "application/json",
     )
+    meeting.transcripts = [f"{FOLDER_NAME}/{video_file.name}.json"]
+    meeting.save()
+
     print(transcription)
 
 
